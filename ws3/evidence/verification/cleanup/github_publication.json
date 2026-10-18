@@ -1,0 +1,9 @@
+{
+  "status": "prepared_not_uploaded",
+  "account": "yych00",
+  "repository": "90098",
+  "visibility": "public",
+  "scope": "complete cleaned ws3 and ws4",
+  "snapshot_path": "C:\\Users\\25704\\.codex\\visualizations\\2026\\10\\15\\01a141e0-85bd-7c91-a9ed-28eff84022fc\\github-90098",
+  "blocker": "Repository creation API unavailable in connector; local GitHub credential access denied; no browser provider available."
+}

@@ -1,0 +1,19 @@
+{
+  "training_seed": 0,
+  "evaluation_seed": 10000,
+  "steps": 1000,
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "estimator_version": "corrected-v2",
+  "checkpoint_env_steps": 1000000,
+  "checkpoint_sha256": "0fb71a62b86d5135484da8982da6ddbe50f0cf2fde766ac8beee6b34d2cf9dbc",
+  "simulated_seconds": 50.0,
+  "episode_return": 364.0901501438774,
+  "root_x_start_m": 0.003338080466092491,
+  "root_x_end_m": 39.968049398068665,
+  "forward_displacement_m": 39.96471131760257,
+  "max_abs_wrapped_pitch_rad": 1.6203330388707151,
+  "fraction_abs_pitch_over_45_degrees": 0.34065934065934067,
+  "torso_height_min_m": 0.29432893786854797,
+  "torso_height_max_m": 0.914421069985225,
+  "pitch_threshold_note": "45 degrees is a descriptive posture statistic, not an environment termination/solved rule"
+}

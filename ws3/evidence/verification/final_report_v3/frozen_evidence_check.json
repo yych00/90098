@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "matched_frozen_files": 747,
+  "against_archive_sha256": "1b11b7e73145087c45e0e422604d43aeb8e302fafa3ffed36367d65e23f2442c",
+  "frozen_source_and_data_unchanged": true
+}

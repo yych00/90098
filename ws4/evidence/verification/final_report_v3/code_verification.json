@@ -1,0 +1,830 @@
+{
+  "status": "passed",
+  "formal_training_started": false,
+  "submission": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\outputs\\final_report_v3\\Workshop4-Code-Cao-Yang",
+  "template_coverage": [
+    {
+      "file": "Policy_Gradient/policy_gradient/agent.py",
+      "original_comments": 25,
+      "preserved_comments": 25,
+      "original_todo_comments": 15,
+      "original_w11_comments": 3,
+      "original_classes_functions": [
+        "PGAgent",
+        "PGAgent.__init__",
+        "PGAgent.sample_action",
+        "PGAgent.generalized_advantage_estimation",
+        "PGAgent.update",
+        "PGAgent._discounted_return",
+        "PGAgent._discounted_reward_to_go"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    },
+    {
+      "file": "Policy_Gradient/policy_gradient/network.py",
+      "original_comments": 2,
+      "preserved_comments": 2,
+      "original_todo_comments": 0,
+      "original_w11_comments": 0,
+      "original_classes_functions": [
+        "GaussianPolicy",
+        "GaussianPolicy.__init__",
+        "GaussianPolicy.forward",
+        "CategoricalPolicy",
+        "CategoricalPolicy.__init__",
+        "CategoricalPolicy.forward",
+        "ValueNet",
+        "ValueNet.__init__",
+        "ValueNet.forward"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    },
+    {
+      "file": "Policy_Gradient/run_policy_gradient.py",
+      "original_comments": 8,
+      "preserved_comments": 8,
+      "original_todo_comments": 3,
+      "original_w11_comments": 0,
+      "original_classes_functions": [
+        "train"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    },
+    {
+      "file": "Policy_Gradient/utils/logger.py",
+      "original_comments": 9,
+      "preserved_comments": 9,
+      "original_todo_comments": 0,
+      "original_w11_comments": 0,
+      "original_classes_functions": [
+        "Logger",
+        "Logger.__init__",
+        "Logger.log_scalar",
+        "Logger.log_scalars",
+        "Logger.log_image",
+        "Logger.log_video",
+        "Logger.log_trajs_as_videos",
+        "Logger.log_figures",
+        "Logger.log_figure",
+        "Logger.dump_scalars",
+        "Logger.flush"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    },
+    {
+      "file": "Policy_Gradient/utils/log_utils.py",
+      "original_comments": 15,
+      "preserved_comments": 15,
+      "original_todo_comments": 3,
+      "original_w11_comments": 0,
+      "original_classes_functions": [
+        "sample_trajectory",
+        "sample_trajectories",
+        "sample_n_trajectories",
+        "compute_metrics",
+        "convert_listofrollouts",
+        "get_traj_length"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    },
+    {
+      "file": "Policy_Gradient/utils/util.py",
+      "original_comments": 7,
+      "preserved_comments": 7,
+      "original_todo_comments": 0,
+      "original_w11_comments": 0,
+      "original_classes_functions": [
+        "collect_trajectories"
+      ],
+      "ordered_exact_comment_coverage": true,
+      "original_docstrings_and_argument_prefixes_preserved": true
+    }
+  ],
+  "total_original_comments": 66,
+  "total_original_todo_comments": 21,
+  "all_original_comments_preserved_in_order": true,
+  "teacher_zip_sha256": "34e8c124b5f1e977ebe7aae35b8cc952e4cfbb52f87cbcb94509b9fef32a1a05",
+  "frozen_trainer_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "fixed_input_comparisons": [
+    {
+      "actions": "gaussian_1",
+      "method": "vanilla",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "vanilla",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "rtg",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "rtg",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "baseline",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "baseline",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "gae",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_1",
+      "method": "gae",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "vanilla",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "vanilla",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "rtg",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "rtg",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "baseline",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "baseline",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "gae",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "gaussian_6",
+      "method": "gae",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "vanilla",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "vanilla",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "rtg",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "rtg",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "baseline",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "baseline",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 2
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 4
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "gae",
+      "normalize_advantage": false,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    },
+    {
+      "actions": "categorical",
+      "method": "gae",
+      "normalize_advantage": true,
+      "updates": [
+        {
+          "update": 1,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        },
+        {
+          "update": 2,
+          "loss_metric_error": 0.0,
+          "gradient_error": 0.0,
+          "parameter_error": 0.0,
+          "baseline_episode_count": 0
+        }
+      ]
+    }
+  ],
+  "single_trajectory_baseline": {
+    "first_gradient_norm": 3.042034149169922,
+    "first_advantage_mean": 5.920300006866455,
+    "second_advantage_expected": 8.91029977798462,
+    "second_advantage_observed": 8.910299301147461
+  },
+  "termination_truncation_contract": {
+    "returns": [
+      1.0,
+      2.799999952316284
+    ],
+    "advantages": [
+      -1.0,
+      0.7999999523162842
+    ],
+    "bootstrap_on_truncation_only": true,
+    "episode_recursion_reset": true
+  },
+  "raw_gaussian_sample_contract": true,
+  "fixed_seed_evaluation": {
+    "episodes": 10,
+    "seeds": [
+      10000,
+      10001,
+      10002,
+      10003,
+      10004,
+      10005,
+      10006,
+      10007,
+      10008,
+      10009
+    ],
+    "returns": [
+      14.0,
+      22.0,
+      18.0,
+      10.0,
+      11.0,
+      19.0,
+      45.0,
+      10.0,
+      23.0,
+      22.0
+    ],
+    "matches_frozen_evaluator": true,
+    "training_rng_unchanged": true
+  },
+  "helper_rollout_boundary_contract": true,
+  "maximum_absolute_errors": {
+    "return_error": 0.0,
+    "rtg_error": 0.0,
+    "loss_error": 0.0,
+    "gradient_error": 0.0,
+    "updated_parameter_error": 0.0,
+    "gae_error": 4.768371586472142e-08
+  },
+  "independent_cpu_cli_smokes": [
+    {
+      "name": "cartpole_rtg",
+      "command": [
+        "D:\\code\\miniconda3\\envs\\vla\\python.exe",
+        "-B",
+        "run_policy_gradient.py",
+        "--env_name",
+        "CartPole-v1",
+        "--device",
+        "cpu",
+        "--discount_gamma",
+        ".99",
+        "--total_steps",
+        "64",
+        "--batch_steps",
+        "32",
+        "--eval_every",
+        "32",
+        "--eval_episodes",
+        "10",
+        "--seed",
+        "7",
+        "--output_dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\smoke_cartpole_rtg",
+        "--use_reward_to_go",
+        "--layer_num",
+        "3",
+        "--learning_rate",
+        ".003"
+      ],
+      "cwd": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\independent_copy\\Policy_Gradient",
+      "returncode": 0,
+      "requested_steps": 64,
+      "actual_steps": 67,
+      "updates": 2,
+      "evaluation_checkpoints": 3,
+      "evaluation_episodes_per_checkpoint": 10,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\cartpole_rtg.log",
+      "non_formal_smoke_only": true
+    },
+    {
+      "name": "halfcheetah_rtg_normalized",
+      "command": [
+        "D:\\code\\miniconda3\\envs\\vla\\python.exe",
+        "-B",
+        "run_policy_gradient.py",
+        "--env_name",
+        "HalfCheetah-v5",
+        "--device",
+        "cpu",
+        "--discount_gamma",
+        ".99",
+        "--total_steps",
+        "8",
+        "--batch_steps",
+        "8",
+        "--eval_every",
+        "8",
+        "--eval_episodes",
+        "10",
+        "--seed",
+        "7",
+        "--output_dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\smoke_halfcheetah_rtg_normalized",
+        "--use_reward_to_go",
+        "--normalize_advantage"
+      ],
+      "cwd": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\independent_copy\\Policy_Gradient",
+      "returncode": 0,
+      "requested_steps": 8,
+      "actual_steps": 1000,
+      "updates": 1,
+      "evaluation_checkpoints": 2,
+      "evaluation_episodes_per_checkpoint": 10,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\halfcheetah_rtg_normalized.log",
+      "non_formal_smoke_only": true
+    },
+    {
+      "name": "pendulum_gae",
+      "command": [
+        "D:\\code\\miniconda3\\envs\\vla\\python.exe",
+        "-B",
+        "run_policy_gradient.py",
+        "--env_name",
+        "InvertedPendulum-v5",
+        "--device",
+        "cpu",
+        "--discount_gamma",
+        ".99",
+        "--total_steps",
+        "24",
+        "--batch_steps",
+        "12",
+        "--eval_every",
+        "12",
+        "--eval_episodes",
+        "10",
+        "--seed",
+        "7",
+        "--output_dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\smoke_pendulum_gae",
+        "--gae_lambda",
+        ".95",
+        "--normalize_advantage"
+      ],
+      "cwd": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\independent_copy\\Policy_Gradient",
+      "returncode": 0,
+      "requested_steps": 24,
+      "actual_steps": 30,
+      "updates": 2,
+      "evaluation_checkpoints": 3,
+      "evaluation_episodes_per_checkpoint": 10,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp\\final_v3_code_qa\\pendulum_gae.log",
+      "non_formal_smoke_only": true
+    }
+  ],
+  "files": [
+    {
+      "path": "Policy_Gradient/policy_gradient/agent.py",
+      "sha256": "3e945bd7bfe77813e5a2ce1c6a1dde76d8c4facf6751fcd28be5aa5fb38275a5"
+    },
+    {
+      "path": "Policy_Gradient/policy_gradient/network.py",
+      "sha256": "06592ea5cd0e7645ab7df41c4355763382767626b706c48b09b18210781bcfdc"
+    },
+    {
+      "path": "Policy_Gradient/run_policy_gradient.py",
+      "sha256": "28cfc832699bd1fbe3fab50527f7c6082e788397fdb320242f20e97e3a803204"
+    },
+    {
+      "path": "Policy_Gradient/utils/log_utils.py",
+      "sha256": "b5ef528cdc5f1d05b673c97f0474be255a86dbcf3a97042eff82017ef69566fa"
+    },
+    {
+      "path": "Policy_Gradient/utils/logger.py",
+      "sha256": "d67b022090b46d092718c2ec326f29f8a3582eed6d38a905b43606b4266eab03"
+    },
+    {
+      "path": "Policy_Gradient/utils/util.py",
+      "sha256": "4e7c02f369e9dc96c6b0140403cbe924ab07b010033f9bc9be700eae0b4efda5"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bbbe85b0b318bc6b30e4d0dd78a7600a56162bcf51131b65abae653a7547d8a3"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "12ff7bb93a286f93a5e86df3d84861dd7baaf9079bd680cf5d05f32da2e17548"
+    }
+  ],
+  "submission_contains_no_cache_logs_checkpoints": true,
+  "checked_python_version": "3.10.21",
+  "readme_python_version_statement_verified": true
+}

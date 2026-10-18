@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "version": "task2-pg-2.0.0",
+  "requested_training_steps": 500000,
+  "actual_training_steps": 500462,
+  "updates": 468,
+  "final_evaluation": {
+    "env_steps": 500462,
+    "mean_return": 1000.0,
+    "std_return": 0.0,
+    "episodes": 10
+  },
+  "wall_seconds": 323.02686079999694,
+  "evaluation_seconds": 80.4789008000007,
+  "training_steps_per_wall_second": 1549.289117197788
+}

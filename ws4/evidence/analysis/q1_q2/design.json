@@ -1,0 +1,163 @@
+{
+  "environment": "InvertedPendulum-v5",
+  "total_steps": 500000,
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "eval_seed": 10000,
+  "eval_episodes": 10,
+  "eval_every": 10000,
+  "discount_gamma": 0.99,
+  "network": "64 x 2 ReLU",
+  "gradient_clipping": "disabled",
+  "advantage_normalization": false,
+  "baseline_definition": "mean discounted trajectory return from previous batches only; initial zero",
+  "difference_from_task1": "common gamma changed from 0.9 to 0.99; new isolated fixed-seed stochastic evaluation",
+  "configurations": [
+    {
+      "config_id": "vanilla_lr1e-04_b1000",
+      "method": "vanilla",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "vanilla_lr1e-03_b1000",
+      "method": "vanilla",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "vanilla_lr1e-02_b1000",
+      "method": "vanilla",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "vanilla_lr1e-03_b2000",
+      "method": "vanilla",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "questions": [
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "vanilla_lr1e-03_b5000",
+      "method": "vanilla",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "questions": [
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "rtg_lr1e-04_b1000",
+      "method": "rtg",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "rtg_lr1e-03_b1000",
+      "method": "rtg",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "rtg_lr1e-02_b1000",
+      "method": "rtg",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "rtg_lr1e-03_b2000",
+      "method": "rtg",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "questions": [
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "rtg_lr1e-03_b5000",
+      "method": "rtg",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "questions": [
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "baseline_lr1e-04_b1000",
+      "method": "baseline",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "baseline_lr1e-03_b1000",
+      "method": "baseline",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "baseline_lr1e-02_b1000",
+      "method": "baseline",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "questions": [
+        "Q1"
+      ]
+    },
+    {
+      "config_id": "baseline_lr1e-03_b2000",
+      "method": "baseline",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "questions": [
+        "Q2"
+      ]
+    },
+    {
+      "config_id": "baseline_lr1e-03_b5000",
+      "method": "baseline",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "questions": [
+        "Q2"
+      ]
+    }
+  ],
+  "unique_configurations": 15,
+  "jobs": 45,
+  "shared_results": "lr=1e-3, batch=1000 is reused by Q1 and Q2 for each of three methods",
+  "estimator_version": "corrected-v2",
+  "rtg_discount_convention": "sum_{k=t}^{T-1} gamma**k * reward[k]"
+}

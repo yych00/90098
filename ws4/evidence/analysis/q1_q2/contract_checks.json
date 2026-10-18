@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "estimator_version": "corrected-v2",
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "diagnostic_gradient_max_abs_error": {
+    "vanilla": 0.0,
+    "rtg": 0.0,
+    "baseline": 0.0,
+    "gaussian_vanilla": 0.0,
+    "gaussian_rtg": 0.0,
+    "gaussian_baseline": 0.0
+  },
+  "checks": [
+    "evaluation_rng_isolation",
+    "fixed_seed_evaluation_repeatability",
+    "discounted_return_semantics",
+    "absolute_episode_origin_discounted_rtg",
+    "complete_batch_alignment",
+    "single_trajectory_baseline_retains_reward_signal",
+    "baseline_uses_only_prior_batches",
+    "diagnostic_gradient_equals_trainer_for_all_core_methods",
+    "categorical_update",
+    "multidimensional_gaussian_update"
+  ]
+}

@@ -1,0 +1,7 @@
+algorithm,training_seed,actual_training_steps,comparison_horizon,return_at_common_horizon,tail3_grid_mean,auc_return,sustained_ge475_confirmed_step,final_saved_checkpoint_return,output_dir
+PG: RTG,0,200831,190831,500.0,419.56128826059495,240.72372088685634,,500.0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_final_s0
+PG: RTG,1,200010,190831,112.87378790805485,131.06615896924615,278.4937135451927,,99.6,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_final_s1
+PG: RTG,2,200523,190831,291.0937701297506,338.11297603298215,225.0310193710876,,382.2,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_final_s2
+DQN,0,200000,190831,265.73205,336.7440166666667,280.61217211446257,60000,500.0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws3\q1_q2\runs\formal\q1_lr1e-3\seed0
+DQN,1,200000,190831,138.64971,138.61657000000002,340.8230864194235,60000,500.0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws3\q1_q2\runs\formal\q1_lr1e-3\seed1
+DQN,2,200000,190831,500.0,381.76666666666665,274.84790207041834,70000,500.0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws3\q1_q2\runs\formal\q1_lr1e-3\seed2

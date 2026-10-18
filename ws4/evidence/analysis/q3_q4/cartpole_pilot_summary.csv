@@ -1,0 +1,4 @@
+run,output_dir,training_steps,initial_mean_return,final_mean_return,last3_mean_return,best_mean_return,wall_seconds
+cartpole_pilot_rtg_lr3e3_b2k_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_pilot_rtg_lr3e3_b2k_s0,100337,29.1,441.9,480.6333333333334,500.0,79.09108150000247
+cartpole_pilot_rtg_lr1e3_b1k_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_pilot_rtg_lr1e3_b1k_s0,100971,29.1,456.6,284.40000000000003,456.6,68.77018300000054
+cartpole_pilot_baseline_lr1e3_b2k_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\cartpole_pilot_baseline_lr1e3_b2k_s0,101430,29.1,109.1,83.89999999999999,109.1,54.54913990000205

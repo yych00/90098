@@ -1,0 +1,55 @@
+usage: run_policy_gradient.py [-h] --env_name ENV_NAME
+                              [--total_steps TOTAL_STEPS]
+                              [--batch_steps BATCH_STEPS]
+                              [--eval_every EVAL_EVERY]
+                              [--video_every VIDEO_EVERY]
+                              [--learning_rate LEARNING_RATE]
+                              [--discount_gamma DISCOUNT_GAMMA]
+                              [--layer_num LAYER_NUM]
+                              [--hidden_size HIDDEN_SIZE] [--use_reward_to_go]
+                              [--use_baseline] [--normalize_advantage]
+                              [--gae_lambda GAE_LAMBDA]
+                              [--baseline_learning_rate BASELINE_LEARNING_RATE]
+                              [--render] [--log_video] [--exp_name EXP_NAME]
+                              [--output_dir OUTPUT_DIR] [--seed SEED]
+                              [--eval_seed EVAL_SEED]
+                              [--eval_episodes EVAL_EPISODES]
+                              [--device {cpu,cuda}]
+                              [--torch_threads TORCH_THREADS]
+                              [--max_grad_norm MAX_GRAD_NORM]
+
+Policy Gradient
+
+options:
+  -h, --help            show this help message and exit
+  --env_name ENV_NAME   gym environment
+  --total_steps TOTAL_STEPS
+                        total env steps to train for
+  --batch_steps BATCH_STEPS
+                        min env steps per update
+  --eval_every EVAL_EVERY
+                        env steps between evals
+  --video_every VIDEO_EVERY
+                        env steps between videos
+  --learning_rate LEARNING_RATE
+  --discount_gamma DISCOUNT_GAMMA
+  --layer_num LAYER_NUM
+                        neural network layer number
+  --hidden_size HIDDEN_SIZE
+                        neural network hidden layer size
+  --use_reward_to_go
+  --use_baseline
+  --normalize_advantage
+  --gae_lambda GAE_LAMBDA
+  --baseline_learning_rate BASELINE_LEARNING_RATE
+  --render              whether to render
+  --log_video
+  --exp_name EXP_NAME   add extra info (parameters) to log
+  --output_dir OUTPUT_DIR
+                        empty output directory; default: relative logs/
+  --seed SEED
+  --eval_seed EVAL_SEED
+  --eval_episodes EVAL_EPISODES
+  --device {cpu,cuda}
+  --torch_threads TORCH_THREADS
+  --max_grad_norm MAX_GRAD_NORM

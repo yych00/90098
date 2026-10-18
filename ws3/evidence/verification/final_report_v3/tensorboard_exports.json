@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "post_training_export": true,
+  "runs": [
+    {
+      "id": "ws3_q1_lr1e-3_seed0",
+      "events": 21,
+      "csv_sha256": "66106342a7bbceeb4a215629ed9a482e3483a1b33fc21ebfa4eea68db8399462",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS3\\ws3_q1_lr1e-3_seed0"
+    },
+    {
+      "id": "ws3_q1_lr1e-3_seed1",
+      "events": 21,
+      "csv_sha256": "d301b98e9086f0c7c0f6896fbf9106f491dded091c82a41e267e66f3cf54399b",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS3\\ws3_q1_lr1e-3_seed1"
+    },
+    {
+      "id": "ws3_q1_lr1e-3_seed2",
+      "events": 21,
+      "csv_sha256": "adc9b109b441d77a240dbad36263e27c779af11c4534ff0718ec85bff5d86cb9",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS3\\ws3_q1_lr1e-3_seed2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s0",
+      "events": 51,
+      "csv_sha256": "821634d671aa973b250651a02dbb1bbbb0c1eed4006a4321019579709dc56661",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\vanilla_lr1e-03_b1000_s0"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s1",
+      "events": 51,
+      "csv_sha256": "9a08bf49c4f1155e85b772b49bf1daed2c3b62a1cd723fe1c4f5a9c6f2bb0a5e",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\vanilla_lr1e-03_b1000_s1"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s2",
+      "events": 51,
+      "csv_sha256": "dca277a8a6f6200d868e5ec68a0eaefbef9c9a506d7744d094dfcd509913f7fa",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\vanilla_lr1e-03_b1000_s2"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s0",
+      "events": 51,
+      "csv_sha256": "efc840f458568054303326df0011051dd7e58a3012b23eb83d2548048a570ad9",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\rtg_lr1e-03_b1000_s0"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s1",
+      "events": 51,
+      "csv_sha256": "863ecf88499a6c9125c90a04f175e093ac2e4a9ead330ad4dcee00a8ab99796f",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\rtg_lr1e-03_b1000_s1"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s2",
+      "events": 51,
+      "csv_sha256": "52d462414f206c28a0d43ff6c7250fffcabda6d4e1310de6bcfa3e2292738b87",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\rtg_lr1e-03_b1000_s2"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s0",
+      "events": 51,
+      "csv_sha256": "d67e289afdf030d5b76afa2075bbc651f5149eb5344130c18f0fa6ed8d310677",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\baseline_lr1e-03_b1000_s0"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s1",
+      "events": 51,
+      "csv_sha256": "98324f571a78b36137f07ce4d2c9013adbe6f76bcdb45159d2a58067f8e44a3f",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\baseline_lr1e-03_b1000_s1"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s2",
+      "events": 51,
+      "csv_sha256": "9f5db65a859ba7fc0d3c43d899a2392aee12001e43ac9704f57bc02202ba2626",
+      "logdir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\tmp\\final_v3_tensorboard\\WS4\\baseline_lr1e-03_b1000_s2"
+    }
+  ]
+}

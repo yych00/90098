@@ -1,0 +1,27 @@
+{
+  "status": "completed",
+  "completed_runs": 45,
+  "numerical_failures": 0,
+  "expected_runs": 45,
+  "incomplete_ids": [],
+  "code_hashes": [
+    "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+  ],
+  "training_evidence_version": "corrected_v2",
+  "corrected_v2_results_included": true,
+  "gradient_diagnostic_complete": true,
+  "gradient_diagnostic_error": null,
+  "baseline_batch_diagnostics": "baseline_batch_diagnostics.json",
+  "analysis_script_sha256": "81796e4c4c098cf684189b29f32b34b467b8547b04088cef834440625f6dfe75",
+  "formal_manifest_provenance": "45 distinct fresh corrected-v2 runs; overlapping Q1/Q2 conditions share only the same new v2 run",
+  "fresh_v2_jobs": 45,
+  "completed_fresh_v2_runs": 45,
+  "reused_historical_pg_runs": 0,
+  "actual_training_steps_min": 500027,
+  "actual_training_steps_max": 503554,
+  "curve_alignment": "piecewise linear interpolation to 10k-step grid, no extrapolation, ending at requested budget",
+  "spread": "one sample SD across training-seed evaluation means; not confidence interval",
+  "tail_return": "mean of final five evaluation means per seed, then mean and sample SD over seeds",
+  "auc_return": "piecewise-linear integral up to requested step budget divided by requested budget",
+  "sustained_success": "mean evaluation return >=950 for three consecutive checkpoints, confirmation at third checkpoint; report count and success-conditioned median"
+}

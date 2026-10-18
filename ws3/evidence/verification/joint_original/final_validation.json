@@ -1,0 +1,762 @@
+{
+  "runs": 84,
+  "passed": 84,
+  "results": [
+    {
+      "id": "ws3_q1_lr1e-3_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "08aafee52b57a976456e29a35a732594880a834f1d591e2375bd1a2d14ad4c11"
+    },
+    {
+      "id": "ws3_q1_lr1e-3_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "792fac55619a7e60b5fe9a0f6710f361fd3d26a8135b27f63509e66396257b3e"
+    },
+    {
+      "id": "ws3_q1_lr1e-3_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "55e2566d7af3e5c008f2324944e6d782b03aeaa3a0fc64839c150103c471b9c8"
+    },
+    {
+      "id": "ws3_q1_lr1e-2_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "2b6128184c449817a0b1ad6d85d56205821564f93dac75bdee818958691f828c"
+    },
+    {
+      "id": "ws3_q1_lr1e-4_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "136df6114ca285aecda46de404e52f9190517cf06cbf3c10ca6d8e79ff2eb186"
+    },
+    {
+      "id": "ws3_q2_eps_constant0.1_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "69211cf40c9bf6b8fb0f9996924149bff8e4c49d373caf8f476230f9bf822cf2"
+    },
+    {
+      "id": "ws3_q2_eps_decay0.9_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "5857978ac9e96320e87ffea3e88d3fd036205cb0c650e3b0d9607cec5b3bad46"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch128_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "f790fecbc4ed14e245cdfac67180d2dc762ed84218f96877bd8f179756ea5601"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch32_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "a8cabd5384f4e121e922cd5937fed986abeb0ed97a304615b2e9611a65d722ce"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch128_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "06eeab8e4d72ddb9af414743ac9b1f2fbc5f2256b762e898012636335d62c617"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch32_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "5cac0c1affc5b37d0cb43301bdea7562f5122103a58e91e3de2c2d7bd27c3624"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch128_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "ccc94569f9a7019ed26a2f9137e52863bf61eecb27bd5ca7dc7982ebe19b8d07"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch32_seed0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "bb8ff7515d00a305c4f00434c266fa7f30330504b177665bcc72de7df922f4de"
+    },
+    {
+      "id": "ws3_q1_lr1e-2_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "28f7621ff766f8f7b91aa4df013e4fbb67fd0dad65a816e262f2c551cd3e3e24"
+    },
+    {
+      "id": "ws3_q1_lr1e-4_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "b94636ba4e70d7de94d7961cb2532d738172cf1fb85c7d31733a7dd3ccffa36e"
+    },
+    {
+      "id": "ws3_q2_eps_constant0.1_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "1beb87d9b44d5aafd82f9c43e40728321fbadfe7e7a92299e14783616d90e6bd"
+    },
+    {
+      "id": "ws3_q2_eps_decay0.9_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "4ac6a1c62a429db12594c55f909175c46c31086bb641a1eeb272170a78c3ea2c"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch128_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "2ec37bc66ee0e085da125d0bfd8e32ad6b8257117dec58e41107ea971f986b76"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch32_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "397d4878f74006897590f1ff6ff4ea7a5dcb03fd6c89feff35def0872b0cef22"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch128_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "40ff3aebb7e8730b78ad67fdaf7b6c4e48f88206056b0fb51c4d951c6644e313"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch32_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "fb4a143ce34b35e2a19325c7997fc9fad98c01908e37a0da58bfa1bc0cdb6be3"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch128_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "c90a2a6680e8f4621967d8686a36c11bf7244bbaca9d418333c16f5c089ebe53"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch32_seed1",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "3e844795f2e925f75be740ca5a14344004a50579a44c15a2612608967ab1617f"
+    },
+    {
+      "id": "ws3_q1_lr1e-2_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "21fd6bbb601cf4e0e8b9fc5f1b8b014375f453daf9562c36280dfcfd0c3b9a0b"
+    },
+    {
+      "id": "ws3_q1_lr1e-4_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "9f3533b92d1c325babf6e1e9a72ca9101ad853a356851f9ce79e6fbc0a33c3dc"
+    },
+    {
+      "id": "ws3_q2_eps_constant0.1_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "040590b21fc55c4598cb748d5aa03e97399eed45d3a18151c9a40980770e98a7"
+    },
+    {
+      "id": "ws3_q2_eps_decay0.9_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "998893431267269198764a919d97f50f312e50d2261d1166e71feb786dc69f6f"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch128_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "77dcbff694e25392d856d405487a7301333cee94fd4d5fc0e5982e6745953711"
+    },
+    {
+      "id": "ws3_q3_memory1000_batch32_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "a7dda3dcfffacc0259a3d15e6a9006b6662fbba8d0269cb5c185e9cb8aa2892e"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch128_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "3126e242db5807beac32a059ba58fba3e85fe60ce3ef99b19d0f52df02bc3317"
+    },
+    {
+      "id": "ws3_q3_memory10000_batch32_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "c7fbf9e32a5e389d72769957d7b841afa19083b63595bff0b8c7c3131c969764"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch128_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "bd33105de68bfb3b8b6ece97b1ad8ab3c2b8d6b51e1cf69a0812f6c938e33e8e"
+    },
+    {
+      "id": "ws3_q3_memory100000_batch32_seed2",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+      "checkpoint_sha256": "069bdacb6d8562c575c8471b7c3dafbf268df1ae21bf112260ed8dce84cd0898"
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s0",
+      "status": "passed",
+      "training_steps": 500197,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "dc3ef4ae086071f31da3ea077e0056717a1472c1dc6432073a7c5411a67ebcb6"
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s1",
+      "status": "passed",
+      "training_steps": 500970,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "2518c11577b5bf85aad26ac30df1c7df212b6775501710f51252d793db756edf"
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s2",
+      "status": "passed",
+      "training_steps": 500532,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "96e42e04e88566094aab612e8483cbe0d04c94e69b072a45c618eac94197c462"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s0",
+      "status": "passed",
+      "training_steps": 500105,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c7373f5b1b1921619704b74e04ebc0bc2f99539c81ab671ea08b0fd3e87df8d4"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s1",
+      "status": "passed",
+      "training_steps": 500861,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "346841b40ef4543b1f8dba73ce2db6a9f3550821bef521ac02c423c2d2165c53"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s2",
+      "status": "passed",
+      "training_steps": 500028,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "8c198ba1bc3e094b3f2f8d9bfc130c8c3ebe9efaf65bf249e9de876a1d4e91d3"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s0",
+      "status": "passed",
+      "training_steps": 500465,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d4dd23d17d0c69f9e00217d9a3f3b82a572acd87c605af4b90aca9b9777e7a73"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s1",
+      "status": "passed",
+      "training_steps": 500249,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d2a8cf4d8585b479be98519952cf2936c766eddccf832160bb1db49e7da462dd"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s2",
+      "status": "passed",
+      "training_steps": 500335,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "e4fdbde9fa9308f63d9f4ed000e5ff89673ec9fd8f19fb5bdcc83f0eda34fa91"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s0",
+      "status": "passed",
+      "training_steps": 500692,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "cdd2a34be573c0d3218de2723a89f2b7a16896eeb812772fafaf93cda9bfbfb6"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s1",
+      "status": "passed",
+      "training_steps": 500488,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "96c2715b966cbae8964cecd8ecb0badd2b7f9f281a28d10d51b890cbe5a89f3c"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s2",
+      "status": "passed",
+      "training_steps": 500858,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d72961a895fea426542338fb6e018d10f385bf0118d67cb3e89e17f45f43e31e"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s0",
+      "status": "passed",
+      "training_steps": 502918,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "837fdf69b317028c50450fb7d23bfd5348ab1ef9e1cf3747cd7ea8666c1d4b91"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s1",
+      "status": "passed",
+      "training_steps": 502864,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "b76739b68fd2cfcf02598ed16d2194e2cfb3245c2815deaa1d931c20a18ee11b"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s2",
+      "status": "passed",
+      "training_steps": 502099,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "20c890a9309517da768444e05493dbb8ccfe70a1f515f4283c04a5af987a40ce"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s0",
+      "status": "passed",
+      "training_steps": 500655,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c38c0e36503548b4bb29852aab6e54e8bd6803f640197e0fdfcfffe543c23fd2"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s1",
+      "status": "passed",
+      "training_steps": 500386,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "0e06dad646b68f38eade081ba5d42feb13c26ac8699880be369260134d60dcab"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s2",
+      "status": "passed",
+      "training_steps": 500333,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "9bb2056dbf1813914cbbcfa316ed13aca7e3dd3c5f1001e2f33be43e4f197bf1"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s0",
+      "status": "passed",
+      "training_steps": 500135,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "8bef0777a26c6d7800b4520a9ac66f016b481f115f5ab841422b093bdf921212"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s1",
+      "status": "passed",
+      "training_steps": 500893,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "661f8f06c5b1551b57f78b38e484824f098f5ef304a18a60d95cfbe6c99248c6"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s2",
+      "status": "passed",
+      "training_steps": 500045,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d718207b33a7ff889f4c999f83f9b195c74686b205b35a405560af495df81c6b"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s0",
+      "status": "passed",
+      "training_steps": 500979,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "f464e29d49555aca5d010a38c0d60e921359225b5329e9f54e6d8e8485584fcd"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s1",
+      "status": "passed",
+      "training_steps": 500802,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "1096d5cf94e7bff2e96c8ac013831e13676b3d23a7266e31239f8236752ffdc9"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s2",
+      "status": "passed",
+      "training_steps": 500462,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "af0246987cce760a6e286910c3e727c71b5e3b17e1b8375758bae0ccb3a4b75e"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s0",
+      "status": "passed",
+      "training_steps": 500709,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "1add34f9e7910fb311e650835f61fbee68aafa6e557d2651e885d9605812f530"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s1",
+      "status": "passed",
+      "training_steps": 501417,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "de206d68369395f83302eef1f882ebe111a48e2f30df9a1eff28d6f6fa58e579"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s2",
+      "status": "passed",
+      "training_steps": 501490,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "adfd9143247b42a8723cbdb82096eedb03dc093800a6bd7aa326dd6a57cb50ba"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s0",
+      "status": "passed",
+      "training_steps": 503183,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "bd8fe13039d4affaa65b3c6dabe0a30fbdc3ce5a167e35b66f7daee70b4849e0"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s1",
+      "status": "passed",
+      "training_steps": 503377,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c2c8d98aaf948962def0ff78fc77265c4a247360b727a402f8bb87c696fdeff2"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s2",
+      "status": "passed",
+      "training_steps": 503025,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "77d21d132c9200f5c738719b04dcb8a0b5e0afb91f2278e76075e38ad7541390"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s0",
+      "status": "passed",
+      "training_steps": 500256,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "2a18c6f6f8651e2f0c9c657ba700453767666863cc8f93f810938e7297eef2ad"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s1",
+      "status": "passed",
+      "training_steps": 500222,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c0572042319cedc02c5fd7024185664b58d7d9c8c6665bdc5ad91ba3e2b1d13f"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s2",
+      "status": "passed",
+      "training_steps": 500766,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "dcf60a4aab5991714d2cc58cf0e50b79f0b076c5b40b22097fb3226a74202d86"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s0",
+      "status": "passed",
+      "training_steps": 500875,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "28f61013bf013da86b1af227c4e76ac75e53670f2ced036120af58c67cd43a2b"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s1",
+      "status": "passed",
+      "training_steps": 501113,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "8b55c960f121bb4bc7db98fdf5526e005ad4a86ba7cbffe33dbb346af2749b50"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s2",
+      "status": "passed",
+      "training_steps": 500027,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "903d02a4dfa16612d7d5c173ffb13eb339c61930f5dcf887450324198ee11bb6"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s0",
+      "status": "passed",
+      "training_steps": 500414,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "879f870b13a90ccf111f99ae0e720b9fae552a73d4e09b41dd1f5a6e98ac9420"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s1",
+      "status": "passed",
+      "training_steps": 500805,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "e0198272af66330868d7c5604b226d8f09a8ea31c5ea4c447b04b586cda6f982"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s2",
+      "status": "passed",
+      "training_steps": 500292,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c965c75054d8ae98058b9811fec4be05a888b8e2275a90f7573821b14e9d694e"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s0",
+      "status": "passed",
+      "training_steps": 500661,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "38282d1b2871edf3ffbf9966d704f4339c48fbdb1e39a4ff78d287f5f054ae6a"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s1",
+      "status": "passed",
+      "training_steps": 500587,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "dacb41b0a6c272b93cdbfc95f653e65af00a7b24e198a69052996856daf80ecd"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s2",
+      "status": "passed",
+      "training_steps": 501446,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "efde2dd76d8f9ce286fbd5a094e208d3c7527934b9f687f7d01a6eb1869eb1ee"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s0",
+      "status": "passed",
+      "training_steps": 503554,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "002e2bb8d2857a00f4b43e67373148f712e481dad5cb543723a7a12ba173aa52"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s1",
+      "status": "passed",
+      "training_steps": 502624,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "0337956acff60c894c32a953df5e1279ca69160277731b766b7090c44e20555e"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s2",
+      "status": "passed",
+      "training_steps": 502128,
+      "evaluation_points": 51,
+      "evaluation_episodes": 510,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "0ced679236480d94fe4865bbdff640ed766fe45a81c61aeadb1b06abca24d67e"
+    },
+    {
+      "id": "cartpole_final_s0",
+      "status": "passed",
+      "training_steps": 200831,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c47d5cb7be1be554f2a9cea09f762bac6cfdd92794b4c19a5a1f4c2b5eba61bd"
+    },
+    {
+      "id": "cartpole_final_s1",
+      "status": "passed",
+      "training_steps": 200010,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d8ac429ea66670a81bac7d71dbec9aceeeb2f24be820f9aca1d7fceee4f1edf2"
+    },
+    {
+      "id": "cartpole_final_s2",
+      "status": "passed",
+      "training_steps": 200523,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "74bff54ea74cd57f96a5b85599583e434208fdb07cbe0ffabb6c93c63fae4f7c"
+    },
+    {
+      "id": "halfcheetah_final_s0",
+      "status": "passed",
+      "training_steps": 1000000,
+      "evaluation_points": 101,
+      "evaluation_episodes": 1010,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "0fb71a62b86d5135484da8982da6ddbe50f0cf2fde766ac8beee6b34d2cf9dbc"
+    },
+    {
+      "id": "halfcheetah_final_s1",
+      "status": "passed",
+      "training_steps": 1000000,
+      "evaluation_points": 101,
+      "evaluation_episodes": 1010,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "52141c390443b66001b0c3b93786a9fa7d3bf473bc732d9ec2dcdba975fa6e4f"
+    },
+    {
+      "id": "halfcheetah_final_s2",
+      "status": "passed",
+      "training_steps": 1000000,
+      "evaluation_points": 101,
+      "evaluation_episodes": 1010,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "2c9c91a46c0411373c06849670d8aee884a8eb740227c7e80759053fe4ba17fb"
+    }
+  ]
+}

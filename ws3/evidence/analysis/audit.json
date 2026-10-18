@@ -1,0 +1,30 @@
+{
+  "generated_utc": "2026-10-16T15:11:36.639887+00:00",
+  "valid_runs": 33,
+  "question_run_records": 36,
+  "questions": [
+    "q1",
+    "q2",
+    "q3"
+  ],
+  "minimum_training_seeds": 3,
+  "threshold_definition": {
+    "minimum_mean_return": 475,
+    "consecutive_checkpoints": 3,
+    "recorded_step": "third qualifying checkpoint confirmation step",
+    "descriptive_only": true,
+    "subsequent_decline_possible": true
+  },
+  "formal_manifest": [
+    "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\shared\\dqn_formal.jobs.json"
+  ],
+  "manifest_sha256": {
+    "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\shared\\dqn_formal.jobs.json": "316440b2c20e1279269a79b9c5ba4fc8a9020cd4816b6d8165838033673c72a5"
+  },
+  "path_resolution": "catalogue original_root mapped to current package root; local evidence only",
+  "complete": true,
+  "issues": [],
+  "run_roots": [
+    "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3"
+  ]
+}

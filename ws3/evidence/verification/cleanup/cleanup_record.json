@@ -1,0 +1,148 @@
+{
+  "status": "complete",
+  "date_local": "2026-10-18",
+  "workshop": 3,
+  "root": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3",
+  "stage": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\_cleanup_stage_20261018",
+  "delete_entries": [
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\DQN",
+      "name": "DQN",
+      "files": 23,
+      "bytes": 84289,
+      "tree_sha256": "caed534cf4151daa2f6e44a41b6aa4e9463a60a5af73de67890295392bbbfc50",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\logs",
+      "name": "logs",
+      "files": 2,
+      "bytes": 31812074,
+      "tree_sha256": "8f6c521da01004adf300734efd575037fcc110009af3acc742fb2b0fb45cf681",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\output",
+      "name": "output",
+      "files": 1,
+      "bytes": 195457,
+      "tree_sha256": "0d46ad255dfd03a6c5216879a613c28c03f3cae99df6d8c90f596b556c403091",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\outputs",
+      "name": "outputs",
+      "files": 76,
+      "bytes": 137704653,
+      "tree_sha256": "e3a2e83f1c9177d0a08879847a6e22ab92f5f2ee1f356299ed17e1fe7ec4c151",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace",
+      "name": "task2_workspace",
+      "files": 6498,
+      "bytes": 508262254,
+      "tree_sha256": "44202ac8f3b9cad23027c50c96e64a349ea460f21d87cc4bb6b01b9b94380bb2",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp",
+      "name": "tmp",
+      "files": 222,
+      "bytes": 31732298,
+      "tree_sha256": "12ee232c86eda59e25240296806e3f1e204e721daed17a507cc24f849a32e3bf",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop3-Code-Cao-Yang",
+      "name": "Workshop3-Code-Cao-Yang",
+      "files": 26,
+      "bytes": 32091820,
+      "tree_sha256": "f40729c619edfacdd1de2920db79af62d98a5c21e8fb218e473d144af991f950",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\zc1",
+      "name": "zc1",
+      "files": 792,
+      "bytes": 64183905,
+      "tree_sha256": "579ed39ff0783fc59849a1ae0d17402694e8f4ee3af098778493ca2edf9af474",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Task1_简要问答_中文.md",
+      "name": "Task1_简要问答_中文.md",
+      "files": 1,
+      "bytes": 4568,
+      "tree_sha256": "0f07ba8cfb29a330bb8518df5fda4f21259660364a52e7dec1d4b7219ee27354",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Task1_简要问答_中文.pdf",
+      "name": "Task1_简要问答_中文.pdf",
+      "files": 1,
+      "bytes": 525783,
+      "tree_sha256": "25263f375fed68b12817bda5f29ed5defeb1cb9be27092d6ddd3db5d1f3c3fa7",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop_3__Deep_Q_Learning-1.pdf",
+      "name": "Workshop_3__Deep_Q_Learning-1.pdf",
+      "files": 1,
+      "bytes": 163645,
+      "tree_sha256": "358e82979e9bb8aab1f6cb478702c485f265a4ef2f47bfd108f7f4dfb976c106",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop_3_Interpretation_and_Task1.md",
+      "name": "Workshop_3_Interpretation_and_Task1.md",
+      "files": 1,
+      "bytes": 15774,
+      "tree_sha256": "cd27409d8d1978fa17f04261d6ae6e244f161551e2662184917ce743cd81f62b",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop3-Cao-Yang.md",
+      "name": "Workshop3-Cao-Yang.md",
+      "files": 1,
+      "bytes": 4153,
+      "tree_sha256": "06675d0ffcea4f3768ce9b7c38b38bef885be6f86f556f261cc9b6b236ea7dd9",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop3-Cao-Yang.pdf",
+      "name": "Workshop3-Cao-Yang.pdf",
+      "files": 1,
+      "bytes": 329585,
+      "tree_sha256": "7fc958136881de95b35c9129894843bb97babc57121c01c7b7c8ea8c4d1f8114",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\Workshop3-Code-Cao-Yang.zip",
+      "name": "Workshop3-Code-Cao-Yang.zip",
+      "files": 1,
+      "bytes": 8850094,
+      "tree_sha256": "9914973bbbef13dbc945c9b28d1753a80d9ba48ab7d4f2f966c727e447aa2b11",
+      "deleted": true
+    }
+  ],
+  "original_bytes": 815960352,
+  "original_files": 7647,
+  "run_count": 33,
+  "no_training": true,
+  "no_pdf_regeneration": true,
+  "no_new_zip": true,
+  "pre_delete_fingerprints_verified": true,
+  "completed_utc": "2026-10-18T10:56:21.486371+00:00",
+  "staging_removed": true,
+  "root_entries": [
+    "evidence",
+    "final"
+  ],
+  "post_delete_integrity": "passed",
+  "post_delete_cli_import_and_help": "passed",
+  "reports_and_submission_source_byte_identical": true,
+  "retained_files": 270,
+  "retained_bytes": 14360769,
+  "net_reduction_bytes": 801599583
+}

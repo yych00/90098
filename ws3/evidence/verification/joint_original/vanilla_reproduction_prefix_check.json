@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "reason": "Vanilla learning math is unchanged; v2 retraining should reproduce the v1 prefix with identical seed/environment",
+  "runs_checked": [
+    {
+      "id": "vanilla_lr1e-04_b1000_s0",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s1",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s2",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s0",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s1",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s2",
+      "evaluation_checkpoints_identical": 51
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s0",
+      "evaluation_checkpoints_identical": 12
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s1",
+      "evaluation_checkpoints_identical": 13
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s2",
+      "evaluation_checkpoints_identical": 12
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s0",
+      "evaluation_checkpoints_identical": 11
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s1",
+      "evaluation_checkpoints_identical": 11
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s2",
+      "evaluation_checkpoints_identical": 11
+    }
+  ]
+}

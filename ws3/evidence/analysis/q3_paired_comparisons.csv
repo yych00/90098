@@ -1,0 +1,4 @@
+﻿memory_size,comparison,last3_mean_delta,auc_return_delta,late5_temporal_sd_delta,batch32_training_seeds,batch128_training_seeds,batch32_seeds_with_3evals_ge475,batch128_seeds_with_3evals_ge475,batch32_median_confirmation_step_among_reached,batch128_median_confirmation_step_among_reached,median_confirmation_step_delta
+1000,batch128_minus_batch32,-90.23333333333329,9.58166666666665,166.2312313327636,3,3,3,3,120000,130000,10000
+10000,batch128_minus_batch32,67.37777777777774,39.083333333333314,38.049178947695495,3,3,3,3,110000,100000,-10000
+100000,batch128_minus_batch32,114.98888888888888,25.27249999999998,-71.95687173388117,3,3,3,3,120000,180000,60000

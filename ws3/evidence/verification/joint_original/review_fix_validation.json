@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "generated_utc": "2026-10-16T15:54:01.990034+00:00",
+  "workspace_version": "corrected-v2",
+  "formal_runs": {
+    "new_corrected_pg": 51,
+    "preserved_dqn": 33,
+    "raw_audit_passed": 84,
+    "source_audit_passed": 84,
+    "new_pg_training_steps": 26148686
+  },
+  "new_selection_pilots": 6,
+  "preserved_dqn_identical_core_files": 198,
+  "regression_tests_passed": 4,
+  "estimator_contracts": "passed; discrete and Gaussian gradient differences zero",
+  "gradient_diagnostic": {
+    "independent_replicates": 20,
+    "calibration_steps": 5003,
+    "scope": "conditional fixed actor and independently calibrated historical baseline"
+  },
+  "checkpoint_reloads": {
+    "checkpoints": 4,
+    "matched_episodes_per_checkpoint": 10
+  },
+  "media": {
+    "status": "passed",
+    "decoded_frames": 1001,
+    "duration_seconds": 50.05,
+    "checkpoint_video_sha_binding": true,
+    "sampled_contact_sheet_viewed": true,
+    "tensorboard_event_files_verified": true,
+    "browser_validation": false,
+    "continuous_playback_checked": false
+  },
+  "pdfs": {
+    "files": 4,
+    "pages": 38,
+    "every_page_visually_checked": true
+  },
+  "result_limits": [
+    "HalfCheetah final seed means vary strongly; no reliable-gait claim.",
+    "PG complete-trajectory batches may exceed requested budgets; actual steps disclosed.",
+    "TensorBoard is a post-training export; no browser review claimed."
+  ],
+  "archive_verification": "Recorded separately after independent extraction; not certified by this record."
+}

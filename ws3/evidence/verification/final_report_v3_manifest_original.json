@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "version": "final-report-v3",
+  "generated_utc": "2026-10-17T03:14:36.133678+00:00",
+  "workshop": 3,
+  "task1_and_task2_included": true,
+  "questions": 5,
+  "code_folder": "Workshop3-Code-Cao-Yang",
+  "code_files": 7,
+  "code_readme_language": "English",
+  "zip_created": false,
+  "pdf_pages": 10,
+  "formal_training_restarted": false,
+  "frozen_files_unchanged": 747,
+  "inventory": [
+    {
+      "path": "DELIVERY.md",
+      "bytes": 1334,
+      "sha256": "ad00927e2cdcfc1479b267b6e1aca314b216c47ea86d72c96fff80d91b410efc"
+    },
+    {
+      "path": "figures/dqn_target_formula.png",
+      "bytes": 24982,
+      "sha256": "2c69d59322665b7d8ca9760ebfd34e8331e3dbdf22ac344270c665c80bcbe771"
+    },
+    {
+      "path": "figures/q1_evaluation_returns.png",
+      "bytes": 233553,
+      "sha256": "6edb117ba9414022abb66cc3c2511e13e821d2b8ebae6ca9d29ae8e68c85724d"
+    },
+    {
+      "path": "figures/q2_evaluation_returns.png",
+      "bytes": 248590,
+      "sha256": "a0a6d994b6713083f2c7f83abc8ea3431ee7fd6e5f538f19fc84531d584ead8e"
+    },
+    {
+      "path": "figures/q3_evaluation_returns.png",
+      "bytes": 335864,
+      "sha256": "b275327229e00a24235305cfa8aa199bb1e14694193b54e144fd4fa0d6285ffe"
+    },
+    {
+      "path": "figures/task1_dqn_evaluation.png",
+      "bytes": 142258,
+      "sha256": "72c1441f54b18315c1f73ea0e279a538db4d3ac9bb74e68f1b38d8de3a002576"
+    },
+    {
+      "path": "verification/code_verification.json",
+      "bytes": 10544,
+      "sha256": "8f1bd1ead60db45fd4d3875b8c264e10fd3e5a17ce0f6abc451f031e56c67c59"
+    },
+    {
+      "path": "verification/formula_verification.json",
+      "bytes": 342,
+      "sha256": "61d210282ca09ba44e08c7504a73e6333aa8c9aac46e64e13d5b7dfc5601ca31"
+    },
+    {
+      "path": "verification/frozen_evidence_check.json",
+      "bytes": 200,
+      "sha256": "bb17067ac145ec2ba2d03a6857ac8c433859e55f902ce06b8bca4f8802d7540e"
+    },
+    {
+      "path": "verification/pdf_qa.json",
+      "bytes": 3666,
+      "sha256": "e194428cca2da961d2de34a802292c145e3e262f52e69e5a62e7e15746a5fffc"
+    },
+    {
+      "path": "verification/requirements_coverage.json",
+      "bytes": 683,
+      "sha256": "4b2ea457e9af8aa80c54349fd105f719deb6426689a99e3006086ed613148df9"
+    },
+    {
+      "path": "verification/tensorboard_exports.json",
+      "bytes": 4061,
+      "sha256": "22b2c1004fe4b306683c0f36731784e52cb7f0d23033721807c1708eaadabd6d"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/DQN/dqn/agent.py",
+      "bytes": 6849,
+      "sha256": "f263ff7148bab92beb0d8cf96f037e31a468749277d6769e2a708f357434341e"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/DQN/dqn/network.py",
+      "bytes": 3259,
+      "sha256": "dd7251fca5079f8a0c97d1783b590d01431c411fac397bed5647e57a3be10564"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/DQN/run_dqn.py",
+      "bytes": 16179,
+      "sha256": "923b58942d9b0f9dc760a769751d399fe553b95673df6524c5891bc22357dd19"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/DQN/utils/logger.py",
+      "bytes": 3305,
+      "sha256": "c5a9b55ab5389a88ea9e26d7a81e0a8e3b9ce847b28ac5d003bf72a2305a2a5d"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/DQN/utils/util.py",
+      "bytes": 2869,
+      "sha256": "23af2025387945d92af9f0b0bbdc27395b6820e9cfae36dd6d814596a8d8b151"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/README.md",
+      "bytes": 4727,
+      "sha256": "c00a88d2d4bc30e1fae2c84dddb1318c345c8671be729a05305491bedb5be5ff"
+    },
+    {
+      "path": "Workshop3-Code-Cao-Yang/requirements.txt",
+      "bytes": 153,
+      "sha256": "f0cf76ddf54598d428c0bf01c058c3524d606cd08d5227b7232ac0d94d21337d"
+    },
+    {
+      "path": "Workshop3_Final_Report_EN.md",
+      "bytes": 8950,
+      "sha256": "c543ed6cd58bcbc609db69fa5df00782f29a7a83e4091b87aedcd6f9c475efae"
+    },
+    {
+      "path": "Workshop3_Final_Report_EN.pdf",
+      "bytes": 1211291,
+      "sha256": "f7e1ac0eebd5381b4e1cb481d5ceabf143167381e0ce4e9f17d23dfa73a2f580"
+    },
+    {
+      "path": "Workshop3_Final_Report_ZH.md",
+      "bytes": 8260,
+      "sha256": "f889e921b0d27100e15b796983e52cf6b93ac388cee40ba3036bbc131b679c34"
+    },
+    {
+      "path": "Workshop3_Final_Report_ZH.pdf",
+      "bytes": 1270039,
+      "sha256": "6eb684085179f02f585db3596db12f07b91ed959d456f011cc28b2fc23b03999"
+    }
+  ]
+}

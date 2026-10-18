@@ -1,0 +1,9 @@
+{
+  "version": "review-fixes-2026-10-16",
+  "pg_estimator": "corrected-v2; 51 PG formal runs trained anew, 33 DQN reference runs preserved",
+  "hashes": {
+    "dqn": "5f1759dfab898740afa191ee17b39ca408d5ff52b4bba3c2de009fa683e56c96",
+    "pg": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+  },
+  "formal_status": "51 corrected-v2 PG formal runs and six pilots completed; 33 preserved DQN reference runs"
+}

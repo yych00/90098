@@ -1,0 +1,147 @@
+{
+  "status": "passed",
+  "version": "final-report-v3",
+  "generated_utc": "2026-10-17T03:14:36.355730+00:00",
+  "workshop": 4,
+  "task1_and_task2_included": true,
+  "questions": 6,
+  "code_folder": "Workshop4-Code-Cao-Yang",
+  "code_files": 8,
+  "code_readme_language": "English",
+  "zip_created": false,
+  "pdf_pages": 18,
+  "formal_training_restarted": false,
+  "frozen_files_unchanged": 747,
+  "inventory": [
+    {
+      "path": "DELIVERY.md",
+      "bytes": 1334,
+      "sha256": "7b932c117272f9486f06b331ea7939619645de84c7141e82d8a6d23e343fb3c4"
+    },
+    {
+      "path": "figures/task1_q2_methods.png",
+      "bytes": 152774,
+      "sha256": "edaa24770187831538a1745abca3acc1b09a9696003a0c25ba29bcf5445bcae4"
+    },
+    {
+      "path": "figures/task2_q1_learning_rates.png",
+      "bytes": 403348,
+      "sha256": "3d4b2b1fabce6b883281ae68fcf35192545033ef0338aa8af05403ea164d1296"
+    },
+    {
+      "path": "figures/task2_q2_batch_baseline.png",
+      "bytes": 158202,
+      "sha256": "148d89d756ec217d447d1610bafdb5bbd4049e2e704052dc9bc2130ec97c1525"
+    },
+    {
+      "path": "figures/task2_q2_batch_rtg.png",
+      "bytes": 140837,
+      "sha256": "6710c7d877d94e2510c8a058f9a096260ad9693d26c9ce18893f95c4f9076216"
+    },
+    {
+      "path": "figures/task2_q2_batch_vanilla.png",
+      "bytes": 153221,
+      "sha256": "d4fb7243c20bcf2906564054af5f5619392cfe2b08d383ac31622db6440a931f"
+    },
+    {
+      "path": "figures/task2_q3_pg_vs_dqn.png",
+      "bytes": 166868,
+      "sha256": "323a5157288e96551bf3169000870f34e3743b8a73b1a1369b528395f36ebabb"
+    },
+    {
+      "path": "figures/task2_q4_frames.png",
+      "bytes": 282963,
+      "sha256": "7a13a75bc2146c9841f1e116726fae827f058372c96d4686db663db5d471e034"
+    },
+    {
+      "path": "figures/task2_q4_halfcheetah.png",
+      "bytes": 225335,
+      "sha256": "a915e7ddd5eb2b3f4b66443fdf4060d81d80d77e8020ef8afd77db4e95b47a92"
+    },
+    {
+      "path": "verification/code_verification.json",
+      "bytes": 22809,
+      "sha256": "50b1d95431e93c53fb20fcd4b038c37232bf8346b205cb1256013de49f46cf7a"
+    },
+    {
+      "path": "verification/frozen_evidence_check.json",
+      "bytes": 200,
+      "sha256": "bb17067ac145ec2ba2d03a6857ac8c433859e55f902ce06b8bca4f8802d7540e"
+    },
+    {
+      "path": "verification/pdf_qa.json",
+      "bytes": 5440,
+      "sha256": "f3d7a106b5fdc787de6c40679a8d07de808f85a08c3071f0790f1c6cfc4b9df6"
+    },
+    {
+      "path": "verification/requirements_coverage.json",
+      "bytes": 12055,
+      "sha256": "3c4437d56e35af9bfe6319870c3242a9a60065fe890cfc707a9a3d09f1bc2779"
+    },
+    {
+      "path": "verification/tensorboard_exports.json",
+      "bytes": 4061,
+      "sha256": "22b2c1004fe4b306683c0f36731784e52cb7f0d23033721807c1708eaadabd6d"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/policy_gradient/agent.py",
+      "bytes": 10941,
+      "sha256": "3e945bd7bfe77813e5a2ce1c6a1dde76d8c4facf6751fcd28be5aa5fb38275a5"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/policy_gradient/network.py",
+      "bytes": 2081,
+      "sha256": "06592ea5cd0e7645ab7df41c4355763382767626b706c48b09b18210781bcfdc"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/run_policy_gradient.py",
+      "bytes": 13719,
+      "sha256": "28cfc832699bd1fbe3fab50527f7c6082e788397fdb320242f20e97e3a803204"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/utils/log_utils.py",
+      "bytes": 5890,
+      "sha256": "b5ef528cdc5f1d05b673c97f0474be255a86dbcf3a97042eff82017ef69566fa"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/utils/logger.py",
+      "bytes": 3255,
+      "sha256": "d67b022090b46d092718c2ec326f29f8a3582eed6d38a905b43606b4266eab03"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/Policy_Gradient/utils/util.py",
+      "bytes": 3754,
+      "sha256": "4e7c02f369e9dc96c6b0140403cbe924ab07b010033f9bc9be700eae0b4efda5"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/README.md",
+      "bytes": 4142,
+      "sha256": "bbbe85b0b318bc6b30e4d0dd78a7600a56162bcf51131b65abae653a7547d8a3"
+    },
+    {
+      "path": "Workshop4-Code-Cao-Yang/requirements.txt",
+      "bytes": 210,
+      "sha256": "12ff7bb93a286f93a5e86df3d84861dd7baaf9079bd680cf5d05f32da2e17548"
+    },
+    {
+      "path": "Workshop4_Final_Report_EN.md",
+      "bytes": 12327,
+      "sha256": "c757d9d8a121735abc3173d6a25f585e330bb45f200a92373f51bf03cbb690c6"
+    },
+    {
+      "path": "Workshop4_Final_Report_EN.pdf",
+      "bytes": 2112080,
+      "sha256": "d024788cb8a12e7d4542bba90e58a8fc5c121c26540431a5933ba7adeff9fa62"
+    },
+    {
+      "path": "Workshop4_Final_Report_ZH.md",
+      "bytes": 10952,
+      "sha256": "9ea1973c93ca0a6ebcae72f942e1982247d0d5fbee6001fa1fa8c81980724e6f"
+    },
+    {
+      "path": "Workshop4_Final_Report_ZH.pdf",
+      "bytes": 2194042,
+      "sha256": "492baab83aec089fdba41bca01c8394ba0aeaf2da92e46beafaac0edf40b812f"
+    }
+  ]
+}

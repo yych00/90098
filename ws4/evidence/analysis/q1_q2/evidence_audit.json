@@ -1,0 +1,348 @@
+{
+  "status": "passed",
+  "completed_runs_audited": 45,
+  "expected_runs": 45,
+  "pending": [],
+  "failed_runs": [],
+  "path_provenance": [
+    {
+      "id": "vanilla_lr1e-04_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-04_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-04_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-02_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-02_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b2000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b2000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "vanilla_lr1e-03_b5000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\vanilla_lr1e-03_b5000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-04_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-04_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-02_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-02_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b2000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b2000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "rtg_lr1e-03_b5000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\rtg_lr1e-03_b5000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-04_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-04_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-02_b1000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-02_b1000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b2000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b2000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s0",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s0",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s0",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s1",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s1",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s1",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    },
+    {
+      "id": "baseline_lr1e-03_b5000_s2",
+      "formal_directory": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s2",
+      "recorded_output_dir": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\runs\\baseline_lr1e-03_b5000_s2",
+      "attempt": 1,
+      "run_origin": "fresh_corrected_v2"
+    }
+  ],
+  "formal_manifest_provenance": "45 fresh corrected-v2 runs; no historical PG reuse or v1 recovery-prefix comparison",
+  "fresh_v2_jobs": 45,
+  "completed_fresh_v2_runs": 45,
+  "reused_historical_pg_runs": 0,
+  "estimator_version": "corrected-v2",
+  "checks": [
+    "corrected_v2_trainer_code_hash_and_estimator_contract",
+    "checkpoint_baseline_history_episode_count",
+    "actual_configuration_matches_job_manifest",
+    "no_extensions_in_core_comparison",
+    "recorded_output_path_matches_current_or_relocated_v2_catalogue_path",
+    "identical_initial_policy_evaluations_for_paired_training_seeds",
+    "strictly_increasing_actual_steps",
+    "budget_and_overshoot_bound",
+    "all_eval_episode_counts_and_fixed_seeds",
+    "all_eval_means_and_standard_deviations",
+    "finite_bounded_evaluation_returns",
+    "cumulative_batch_steps_and_update_count",
+    "finite_training_metrics",
+    "checkpoint_step_count_config_hash_finite_actor",
+    "tensorboard_event_presence",
+    "tensorboard_eval_scalar_steps_and_float32_values_match_all_csv_evaluations"
+  ],
+  "audit_output": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q1_q2\\evidence_audit.json"
+}

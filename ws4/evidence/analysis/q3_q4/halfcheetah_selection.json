@@ -1,0 +1,90 @@
+{
+  "selection_rule": "highest mean of final three fixed-seed evaluation means; seed-0 pilot only",
+  "estimator_version": "corrected-v2",
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "pilot": {
+    "run": "halfcheetah_pilot_rtg_normalized_s0",
+    "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\halfcheetah_pilot_rtg_normalized_s0",
+    "training_steps": 200000,
+    "initial_mean_return": -309.9172081981102,
+    "final_mean_return": -250.88472291456978,
+    "last3_mean_return": -240.76959726602988,
+    "best_mean_return": -208.08902773770964,
+    "wall_seconds": 189.9249228999979
+  },
+  "parameters": {
+    "learning_rate": 0.001,
+    "batch_steps": 5000,
+    "layer_num": 2,
+    "hidden_size": 64,
+    "discount_gamma": 0.99,
+    "use_reward_to_go": true,
+    "use_baseline": false,
+    "normalize_advantage": true,
+    "gae_lambda": 1.0,
+    "baseline_learning_rate": 0.001,
+    "max_grad_norm": 0.0
+  },
+  "candidate_ranking": [
+    {
+      "run": "halfcheetah_pilot_rtg_normalized_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\halfcheetah_pilot_rtg_normalized_s0",
+      "training_steps": 200000,
+      "initial_mean_return": -309.9172081981102,
+      "final_mean_return": -250.88472291456978,
+      "last3_mean_return": -240.76959726602988,
+      "best_mean_return": -208.08902773770964,
+      "wall_seconds": 189.9249228999979
+    },
+    {
+      "run": "halfcheetah_pilot_rtg_raw_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\halfcheetah_pilot_rtg_raw_s0",
+      "training_steps": 200000,
+      "initial_mean_return": -309.9172081981102,
+      "final_mean_return": -293.985402260359,
+      "last3_mean_return": -256.9066473573246,
+      "best_mean_return": -229.5553838732767,
+      "wall_seconds": 218.42729439999675
+    },
+    {
+      "run": "halfcheetah_pilot_gae_normalized_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\halfcheetah_pilot_gae_normalized_s0",
+      "training_steps": 200000,
+      "initial_mean_return": -309.9172081981102,
+      "final_mean_return": -284.89210240116506,
+      "last3_mean_return": -287.59887619955924,
+      "best_mean_return": -239.4300991281331,
+      "wall_seconds": 185.19894800000475
+    }
+  ],
+  "raw_data_audit": [
+    {
+      "id": "halfcheetah_pilot_rtg_raw_s0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c8eee3244f6ddb9f70dc8a0476edf5b4162077c8b1fc1e56eb084b996f81915f"
+    },
+    {
+      "id": "halfcheetah_pilot_rtg_normalized_s0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "75e94d89825aa6e04a6b233523eb8c5b617b304768c9f97f517ce56d82cef767"
+    },
+    {
+      "id": "halfcheetah_pilot_gae_normalized_s0",
+      "status": "passed",
+      "training_steps": 200000,
+      "evaluation_points": 21,
+      "evaluation_episodes": 210,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "4f90e696860643b3f4115afc26d9182367f4699a6ecd4bdc1c1bcdd895f64520"
+    }
+  ],
+  "caution": "pilot selection is exploratory; final three-seed comparison is reported separately"
+}

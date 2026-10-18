@@ -1,0 +1,21 @@
+{
+  "version": "corrected-v2",
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "pg_formal_runs_planned": 51,
+  "pg_pilots_planned": 6,
+  "dqn_reused_runs": 33,
+  "dqn_evidence_files_copied": 198,
+  "historical_workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace",
+  "pg_source_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "historical_v1_reports_remain_separate": true,
+  "completed_utc": "2026-10-16T15:45:01.240801+00:00",
+  "pg_formal_runs_completed": 51,
+  "pg_pilots_completed": 6,
+  "formal_status": "completed; independent audits required before packaging",
+  "pg_formal_requested_steps": 26100000,
+  "pg_formal_actual_steps": 26148686
+}

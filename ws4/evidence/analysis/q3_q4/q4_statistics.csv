@@ -1,0 +1,4 @@
+training_seed,training_steps,initial_return,final_return,tail5_mean,best_return,output_dir
+0,1000000,-309.9172081981102,328.7322167219638,333.45207916419565,376.85522429118174,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_final_s0
+1,1000000,-448.27757853148995,97.03383639373325,74.78892272905394,101.17957985465497,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_final_s1
+2,1000000,-416.25620826411125,-271.11624624720514,-282.9272090586379,-258.42107410083645,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_final_s2

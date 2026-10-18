@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "kind": "pg",
+  "run_dir": "ws4\\q1_q2\\runs\\rtg_lr1e-03_b1000_s0",
+  "checkpoint_sha256": "8bef0777a26c6d7800b4520a9ac66f016b481f115f5ab841422b093bdf921212",
+  "training_steps": 500135,
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "expected_returns": [
+    115.0,
+    727.0,
+    328.0,
+    713.0,
+    420.0,
+    81.0,
+    1000.0,
+    1000.0,
+    445.0,
+    671.0
+  ],
+  "reloaded_returns": [
+    115.0,
+    727.0,
+    328.0,
+    713.0,
+    420.0,
+    81.0,
+    1000.0,
+    1000.0,
+    445.0,
+    671.0
+  ],
+  "mean_return": 550.0,
+  "std_return": 310.47286515893785
+}

@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "workspace_version": "corrected-v2",
+  "archives": [
+    {
+      "file": "WS3_WS4_Task2_Code_Cao_Yang.zip",
+      "sha256": "974793b09386af625cdaf4acfa49d923093019f91a3e629bda7308a44d3b7c50",
+      "crc": "passed",
+      "manifest_payloads_verified": 82,
+      "extracted_root": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\code\\task2"
+    },
+    {
+      "file": "WS3_WS4_Task2_Complete_Cao_Yang.zip",
+      "sha256": "1b11b7e73145087c45e0e422604d43aeb8e302fafa3ffed36367d65e23f2442c",
+      "crc": "passed",
+      "manifest_payloads_verified": 747,
+      "extracted_root": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2"
+    }
+  ],
+  "code_help_checked_before_dry_run": true,
+  "code_formal_entrypoints": {
+    "dqn": 33,
+    "pg": 51
+  },
+  "complete_formal_runs_resolved_locally": 84,
+  "complete_pilot_runs_resolved_locally": 6,
+  "core_files_present_per_run": 6,
+  "source_audit_passed": 84,
+  "raw_audit_passed": 84,
+  "ws3_audited_runs": 33,
+  "ws4_q12_completed_runs": 45,
+  "ws4_formal_pg_runs_passed": 51,
+  "gradient_diagnostic_complete": true,
+  "media_validation": {
+    "status": "complete",
+    "motion": "passed",
+    "video": "passed",
+    "tensorboard": "passed",
+    "checkpoint_sha256": "0fb71a62b86d5135484da8982da6ddbe50f0cf2fde766ac8beee6b34d2cf9dbc",
+    "video_sha256": "bdc734c7e8cf2f82d64109a0b4d228aa11c4ce8967118ffe7a75b942fcc3a723",
+    "video_render_record_sha256": "d5c54e8f498410922453b6dfce5d8570ea4a49da0b83faf36bd7b398a8be5cdb"
+  },
+  "no_host_fallback_fixture": {
+    "status": "passed",
+    "complete_local_run": "ws3_q1_lr1e-3_seed0",
+    "deliberately_incomplete_local_run": "ws3_q1_lr1e-3_seed1",
+    "local_valid_runs": 1,
+    "host_run_still_complete": true,
+    "old_absolute_evidence_was_not_used": true,
+    "packager_uses_local_evidence": true,
+    "original_manifest_unchanged": true,
+    "source_pointers_verified_against_manifest": true
+  },
+  "four_final_report_pdf_sha256_unchanged": {
+    "ws3/reports/Workshop3_Task2_Report_EN.pdf": "7691ce96c0bcfc9307d6a3b67c70fd587d434fe2bbe286e0242264bebe573011",
+    "ws3/reports/Workshop3_Task2_Analysis_ZH.pdf": "21103ee2148daddb2b7ae9f9f2aaad56185ecb423d24d07981fcbc7f473b28d0",
+    "ws4/reports/Workshop4_Task2_Report_EN.pdf": "190d00454f14f97cbc32a804ef0db977f3938cc1bc0688f07afa7c4235e6ee04",
+    "ws4/reports/Workshop4_Task2_Analysis_ZH.pdf": "fd8fb9be675742c72ccc41e06422c892f2f04100dd515aa7e9796e151f6eb4c8"
+  },
+  "main_reports_and_catalogues_unchanged": true,
+  "commands": [
+    {
+      "label": "code_run_all_help",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\code\\task2",
+      "arguments": [
+        "shared/run_all.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.19,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\code_run_all_help.log"
+    },
+    {
+      "label": "code_run_all_dry_run",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\code\\task2",
+      "arguments": [
+        "shared/run_all.py",
+        "--dry-run"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.2,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\code_run_all_dry_run.log"
+    },
+    {
+      "label": "complete_source_integrity",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "shared/check_source_integrity.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 4.28,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_source_integrity.log"
+    },
+    {
+      "label": "complete_validate_84_runs",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "shared/validate_runs.py",
+        "shared/all_formal.jobs.json",
+        "--output",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2\\verification_raw_audit.json"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 13.41,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_validate_84_runs.log"
+    },
+    {
+      "label": "complete_ws4_q12_verify",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "ws4/q1_q2/verify_results.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 18.57,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_ws4_q12_verify.log"
+    },
+    {
+      "label": "complete_ws4_q12_analyze",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "ws4/q1_q2/analyze_results.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 7.13,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_ws4_q12_analyze.log"
+    },
+    {
+      "label": "complete_ws4_q34_analyze",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "ws4/q3_q4/analyze_final.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 13.31,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_ws4_q34_analyze.log"
+    },
+    {
+      "label": "complete_ws3_analyze",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "ws3/analysis/build_results.py"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 10.27,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_ws3_analyze.log"
+    },
+    {
+      "label": "complete_no_host_fallback_fixture",
+      "workspace": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2",
+      "arguments": [
+        "ws3/submission/verify_portable_bundle.py",
+        "--temp-dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete\\task2\\ws3\\reports\\tmp\\no_host_fallback_fixture"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 13.09,
+      "log": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws3\\reports\\tmp\\final_v2_delivery_check\\complete_no_host_fallback_fixture.log"
+    }
+  ],
+  "formal_training_started": false,
+  "pdf_rendering_started": false,
+  "archives_rebuilt": false
+}

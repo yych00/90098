@@ -1,0 +1,90 @@
+{
+  "selection_rule": "highest mean of final three fixed-seed evaluation means; seed-0 pilot only",
+  "estimator_version": "corrected-v2",
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "pilot": {
+    "run": "cartpole_pilot_rtg_lr3e3_b2k_s0",
+    "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\cartpole_pilot_rtg_lr3e3_b2k_s0",
+    "training_steps": 100337,
+    "initial_mean_return": 29.1,
+    "final_mean_return": 441.9,
+    "last3_mean_return": 480.6333333333334,
+    "best_mean_return": 500.0,
+    "wall_seconds": 79.09108150000247
+  },
+  "parameters": {
+    "learning_rate": 0.003,
+    "batch_steps": 2000,
+    "layer_num": 3,
+    "hidden_size": 64,
+    "discount_gamma": 0.99,
+    "use_reward_to_go": true,
+    "use_baseline": false,
+    "normalize_advantage": false,
+    "gae_lambda": 1.0,
+    "baseline_learning_rate": 0.001,
+    "max_grad_norm": 0.0
+  },
+  "candidate_ranking": [
+    {
+      "run": "cartpole_pilot_rtg_lr3e3_b2k_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\cartpole_pilot_rtg_lr3e3_b2k_s0",
+      "training_steps": 100337,
+      "initial_mean_return": 29.1,
+      "final_mean_return": 441.9,
+      "last3_mean_return": 480.6333333333334,
+      "best_mean_return": 500.0,
+      "wall_seconds": 79.09108150000247
+    },
+    {
+      "run": "cartpole_pilot_rtg_lr1e3_b1k_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\cartpole_pilot_rtg_lr1e3_b1k_s0",
+      "training_steps": 100971,
+      "initial_mean_return": 29.1,
+      "final_mean_return": 456.6,
+      "last3_mean_return": 284.40000000000003,
+      "best_mean_return": 456.6,
+      "wall_seconds": 68.77018300000054
+    },
+    {
+      "run": "cartpole_pilot_baseline_lr1e3_b2k_s0",
+      "output_dir": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\cartpole_pilot_baseline_lr1e3_b2k_s0",
+      "training_steps": 101430,
+      "initial_mean_return": 29.1,
+      "final_mean_return": 109.1,
+      "last3_mean_return": 83.89999999999999,
+      "best_mean_return": 109.1,
+      "wall_seconds": 54.54913990000205
+    }
+  ],
+  "raw_data_audit": [
+    {
+      "id": "cartpole_pilot_rtg_lr1e3_b1k_s0",
+      "status": "passed",
+      "training_steps": 100971,
+      "evaluation_points": 11,
+      "evaluation_episodes": 110,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "530a888b0d57229cb703d7ac86106ee679479f3813b45157d7a9b68a02516bd0"
+    },
+    {
+      "id": "cartpole_pilot_rtg_lr3e3_b2k_s0",
+      "status": "passed",
+      "training_steps": 100337,
+      "evaluation_points": 11,
+      "evaluation_episodes": 110,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "f6bb5942ca7c8a685a636c6b1c29d74014d8c15846911da6bf81089d777cc3bb"
+    },
+    {
+      "id": "cartpole_pilot_baseline_lr1e3_b2k_s0",
+      "status": "passed",
+      "training_steps": 101430,
+      "evaluation_points": 11,
+      "evaluation_episodes": 110,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "4153e6ad10ce5e230a45664f4da88c95b1212b6a8ab7e365d9e10147981ca195"
+    }
+  ],
+  "caution": "pilot selection is exploratory; final three-seed comparison is reported separately"
+}

@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "complete": true,
+  "method": "Poppler 130 dpi; every page viewed in contact sheets. Formula also checked against its source; no clipping, overlaps, missing glyphs or orphan table rows.",
+  "files": [
+    {
+      "path": "Workshop3_Final_Report_EN.pdf",
+      "sha256": "f7e1ac0eebd5381b4e1cb481d5ceabf143167381e0ce4e9f17d23dfa73a2f580",
+      "pages": 5,
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 1935,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 2,
+          "characters": 1448,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 3,
+          "characters": 1594,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 4,
+          "characters": 1639,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 5,
+          "characters": 1706,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        }
+      ],
+      "fonts": {
+        "Helvetica": {
+          "embedded": false,
+          "standard_pdf_font": true
+        },
+        "AAAAAA+ArialMT": {
+          "embedded": true,
+          "standard_pdf_font": false
+        },
+        "AAAAAA+Arial-BoldMT": {
+          "embedded": true,
+          "standard_pdf_font": false
+        }
+      },
+      "visually_checked": true,
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "path": "Workshop3_Final_Report_ZH.pdf",
+      "sha256": "6eb684085179f02f585db3596db12f07b91ed959d456f011cc28b2fc23b03999",
+      "pages": 5,
+      "page_checks": [
+        {
+          "page": 1,
+          "characters": 769,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 2,
+          "characters": 614,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 3,
+          "characters": 713,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 4,
+          "characters": 797,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        },
+        {
+          "page": 5,
+          "characters": 1026,
+          "text_extracted": true,
+          "bounds_check": "requires visual review; standalone pdftotext unavailable"
+        }
+      ],
+      "fonts": {
+        "Helvetica": {
+          "embedded": false,
+          "standard_pdf_font": true
+        },
+        "AAAAAA+ArialMT": {
+          "embedded": true,
+          "standard_pdf_font": false
+        },
+        "AAAAAA+SimSun-0": {
+          "embedded": true,
+          "standard_pdf_font": false
+        },
+        "AAAAAB+SimSun-0": {
+          "embedded": true,
+          "standard_pdf_font": false
+        }
+      },
+      "visually_checked": true,
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ]
+}

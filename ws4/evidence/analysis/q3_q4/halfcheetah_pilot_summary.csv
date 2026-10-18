@@ -1,0 +1,4 @@
+run,output_dir,training_steps,initial_mean_return,final_mean_return,last3_mean_return,best_mean_return,wall_seconds
+halfcheetah_pilot_rtg_normalized_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_pilot_rtg_normalized_s0,200000,-309.9172081981102,-250.88472291456978,-240.76959726602988,-208.08902773770964,189.9249228999979
+halfcheetah_pilot_rtg_raw_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_pilot_rtg_raw_s0,200000,-309.9172081981102,-293.985402260359,-256.9066473573246,-229.5553838732767,218.42729439999675
+halfcheetah_pilot_gae_normalized_s0,D:\uni mel\Melbourne College\第四学期\90098强化学习\ws3\task2_workspace\corrected_v2\ws4\q3_q4\runs\halfcheetah_pilot_gae_normalized_s0,200000,-309.9172081981102,-284.89210240116506,-287.59887619955924,-239.4300991281331,185.19894800000475

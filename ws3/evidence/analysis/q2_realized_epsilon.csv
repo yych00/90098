@@ -1,0 +1,10 @@
+﻿condition,seed,completed_training_episodes,final_epsilon,first_step_at_floor,learning_start
+constant epsilon=0.1,0,1428,0.1,,1000
+constant epsilon=0.1,1,1473,0.1,,1000
+constant epsilon=0.1,2,1105,0.1,,1000
+"decay=0.9, floor=0.02",0,1102,0.02,399,1000
+"decay=0.9, floor=0.02",1,1565,0.02,470,1000
+"decay=0.9, floor=0.02",2,1210,0.02,424,1000
+"decay=0.995, floor=0.02",0,1081,0.02,114641,1000
+"decay=0.995, floor=0.02",1,1009,0.02,123550,1000
+"decay=0.995, floor=0.02",2,1018,0.02,143081,1000

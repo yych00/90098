@@ -1,0 +1,6 @@
+{
+  "formula": "y = r + \\gamma(1-d)\\max_{a'} Q_{\\mathrm{target}}(s', a')",
+  "file": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\outputs\\final_report_v3\\figures\\dqn_target_formula.png",
+  "dpi": 600,
+  "sha256": "2c69d59322665b7d8ca9760ebfd34e8331e3dbdf22ac344270c665c80bcbe771"
+}

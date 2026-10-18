@@ -1,0 +1,156 @@
+{
+  "status": "complete",
+  "date_local": "2026-10-18",
+  "workshop": 4,
+  "root": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4",
+  "stage": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\_cleanup_stage_20261018",
+  "delete_entries": [
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\logs",
+      "name": "logs",
+      "files": 3,
+      "bytes": 7442402,
+      "tree_sha256": "367997c45e00bd189d39e8e3b0d55b052974a4dbdf06b45be48ad6af6dec3740",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\output",
+      "name": "output",
+      "files": 12,
+      "bytes": 2717393,
+      "tree_sha256": "d93b070c24b283aee5372a0a63f5da75f740b3ae1b08f77a119eb7e466c8d0ab",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\outputs",
+      "name": "outputs",
+      "files": 74,
+      "bytes": 120692723,
+      "tree_sha256": "357346cc6a7e91198d7e8cda9bafb0e2bd85dcb7e80bcd04844f312e4c0d5995",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Policy_Gradient",
+      "name": "Policy_Gradient",
+      "files": 30,
+      "bytes": 85236,
+      "tree_sha256": "8ff6a6f69344357a87abafe1810f0f486dd646371a237ca75e0c01667af6809c",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\tmp",
+      "name": "tmp",
+      "files": 471,
+      "bytes": 9622758,
+      "tree_sha256": "7681186b0c98ef52720e544433ced36e5404823cab698a89085bbf00f9de4e6b",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Policy_Gradient.zip",
+      "name": "Policy_Gradient.zip",
+      "files": 1,
+      "bytes": 38344,
+      "tree_sha256": "f8d1214459951808a448814c6d56df9f0a655e12ba60935bef5101da32885efc",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\README_中文.md",
+      "name": "README_中文.md",
+      "files": 1,
+      "bytes": 6329,
+      "tree_sha256": "13af2e980fae14822dbe5bfa4c4ab3205df04692676638eeacf12658416ca09c",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\run_task1.bat",
+      "name": "run_task1.bat",
+      "files": 1,
+      "bytes": 234,
+      "tree_sha256": "7ed9cf03ab8d92cfb08a1362aa3948557a34e49118e137bd9d52c9eb571cbb81",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Task1_简要问答_中文.md",
+      "name": "Task1_简要问答_中文.md",
+      "files": 1,
+      "bytes": 4565,
+      "tree_sha256": "d8bea7f649dbee041c2374f09469a3b8c6b6b5a5ff7851fc6c00d949d8a899bb",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Task1_简要问答_中文.pdf",
+      "name": "Task1_简要问答_中文.pdf",
+      "files": 1,
+      "bytes": 479954,
+      "tree_sha256": "24fc99accaca330e35c55807f1a97d4f2f8e0975d78a69d6268f46d815092c64",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Workshop_4__Policy_Gradient-2.pdf",
+      "name": "Workshop_4__Policy_Gradient-2.pdf",
+      "files": 1,
+      "bytes": 178861,
+      "tree_sha256": "10ddf21c49faeb01712751637bf1549e507c32cb33f9603315084240f2956d99",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Workshop4-Cao-Yang.md",
+      "name": "Workshop4-Cao-Yang.md",
+      "files": 1,
+      "bytes": 4189,
+      "tree_sha256": "da1bd6a2974c48c7bb93cd06267d463bd12520c12394de85d10b953e3a7b8e0c",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Workshop4-Cao-Yang.pdf",
+      "name": "Workshop4-Cao-Yang.pdf",
+      "files": 1,
+      "bytes": 312096,
+      "tree_sha256": "a8e049e13ac807e3c9f5b2b4fa380b6b112a8c5edf42bbf50ed0a754281bbb4d",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Workshop4-Code-Cao-Yang.zip",
+      "name": "Workshop4-Code-Cao-Yang.zip",
+      "files": 1,
+      "bytes": 13881,
+      "tree_sha256": "1b3a870e6dd2487be06ac9870f3027c11fa2e5f574d826364e0672a4e17fe9cb",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\WS4_答辩通关指南_老师模拟问答.md",
+      "name": "WS4_答辩通关指南_老师模拟问答.md",
+      "files": 1,
+      "bytes": 20256,
+      "tree_sha256": "dc6d35fb17f6bd4072cb767a99904a5f7cb35be13c01ab4d759f491d3dda396c",
+      "deleted": true
+    },
+    {
+      "path": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\WS4_问题与解决方案_中文.md",
+      "name": "WS4_问题与解决方案_中文.md",
+      "files": 1,
+      "bytes": 39469,
+      "tree_sha256": "5461487f923269867baaa3d332b681c824a92724163489708ab878f5ebc249af",
+      "deleted": true
+    }
+  ],
+  "original_bytes": 141658690,
+  "original_files": 601,
+  "run_count": 57,
+  "no_training": true,
+  "no_pdf_regeneration": true,
+  "no_new_zip": true,
+  "pre_delete_fingerprints_verified": true,
+  "completed_utc": "2026-10-18T10:56:22.055894+00:00",
+  "staging_removed": true,
+  "root_entries": [
+    "evidence",
+    "final"
+  ],
+  "post_delete_integrity": "passed",
+  "post_delete_cli_import_and_help": "passed",
+  "reports_and_submission_source_byte_identical": true,
+  "retained_files": 490,
+  "retained_bytes": 31915290,
+  "net_reduction_bytes": 109743400
+}

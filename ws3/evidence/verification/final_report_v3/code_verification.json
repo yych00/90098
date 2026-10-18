@@ -1,0 +1,314 @@
+{
+  "status": "passed",
+  "template_reference": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\DQN",
+  "original_teacher_DQN_zip_available": false,
+  "template_claim": "Checked against existing early source, not an unavailable unmodified teacher archive.",
+  "files": {
+    "run_dqn.py": {
+      "early_sha256": "cb5ea18d2f2f5ec39010ac3c661983b633b169d52e80757828d04c771f845ebe",
+      "submission_sha256": "923b58942d9b0f9dc760a769751d399fe553b95673df6524c5891bc22357dd19",
+      "original_comments": 8,
+      "retained_comments_in_order": true,
+      "todo_comments_retained": 4,
+      "original_interfaces": [
+        "train"
+      ],
+      "missing_interfaces": [],
+      "added_interfaces": [
+        "write_json",
+        "source_hash",
+        "preserve_rng",
+        "evaluate",
+        "build_parser"
+      ]
+    },
+    "dqn/agent.py": {
+      "early_sha256": "561efab51c32998eecfb539c96ee2c1a31019c1308c49ed7ac996338859d7a48",
+      "submission_sha256": "f263ff7148bab92beb0d8cf96f037e31a468749277d6769e2a708f357434341e",
+      "original_comments": 15,
+      "retained_comments_in_order": true,
+      "todo_comments_retained": 5,
+      "original_interfaces": [
+        "DQNAgent",
+        "DQNAgent.__init__",
+        "DQNAgent.sample_action",
+        "DQNAgent.update",
+        "DQNAgent.update_target_net",
+        "DQNAgent.epsilon_step",
+        "ReplayBuffer",
+        "ReplayBuffer.__init__",
+        "ReplayBuffer.add",
+        "ReplayBuffer.sample",
+        "ReplayBuffer.__len__"
+      ],
+      "missing_interfaces": [],
+      "added_interfaces": [
+        "DQNAgent.greedy_action",
+        "ReplayBuffer._allocate_states"
+      ]
+    },
+    "dqn/network.py": {
+      "early_sha256": "dd7251fca5079f8a0c97d1783b590d01431c411fac397bed5647e57a3be10564",
+      "submission_sha256": "dd7251fca5079f8a0c97d1783b590d01431c411fac397bed5647e57a3be10564",
+      "original_comments": 7,
+      "retained_comments_in_order": true,
+      "todo_comments_retained": 0,
+      "original_interfaces": [
+        "GaussianPolicy",
+        "GaussianPolicy.__init__",
+        "GaussianPolicy.forward",
+        "GaussianPolicy.sample_action",
+        "CategoricalPolicy",
+        "CategoricalPolicy.__init__",
+        "CategoricalPolicy.forward",
+        "CategoricalPolicy.sample_action",
+        "ValueNet",
+        "ValueNet.__init__",
+        "ValueNet.forward",
+        "QNet",
+        "QNet.__init__",
+        "QNet.forward"
+      ],
+      "missing_interfaces": [],
+      "added_interfaces": []
+    },
+    "utils/util.py": {
+      "early_sha256": "923d33ac0a423ea6c4e21c2a234dc6da0aeca174fb3be0969842e024eb205939",
+      "submission_sha256": "23af2025387945d92af9f0b0bbdc27395b6820e9cfae36dd6d814596a8d8b151",
+      "original_comments": 9,
+      "retained_comments_in_order": true,
+      "todo_comments_retained": 0,
+      "original_interfaces": [
+        "collect_trajectories"
+      ],
+      "missing_interfaces": [],
+      "added_interfaces": []
+    },
+    "utils/logger.py": {
+      "early_sha256": "99e54dff2798e5ffd6f619a799257d6f9a479b7bddaa7ea776ef5cf3ca2f1ee4",
+      "submission_sha256": "c5a9b55ab5389a88ea9e26d7a81e0a8e3b9ce847b28ac5d003bf72a2305a2a5d",
+      "original_comments": 9,
+      "retained_comments_in_order": true,
+      "todo_comments_retained": 0,
+      "original_interfaces": [
+        "Logger",
+        "Logger.__init__",
+        "Logger.log_scalar",
+        "Logger.log_scalars",
+        "Logger.log_image",
+        "Logger.log_video",
+        "Logger.log_trajs_as_videos",
+        "Logger.log_figures",
+        "Logger.log_figure",
+        "Logger.dump_scalars",
+        "Logger.flush"
+      ],
+      "missing_interfaces": [],
+      "added_interfaces": [
+        "Logger.close"
+      ]
+    }
+  },
+  "checks": {
+    "fixed_batch_reference": {
+      "status": "passed",
+      "scalar_absolute_errors": {
+        "critic_loss": 0.0,
+        "q_values": 0.0,
+        "target_values": 0.0,
+        "gradient": 0.0
+      },
+      "post_clip_gradient_max_abs_error": 0.0,
+      "first_update_parameter_max_abs_error": 0.0,
+      "pre_clip_norm": 84827.7421875,
+      "post_clip_norm": 10.000000953674316,
+      "target_unchanged_after_update_1": true,
+      "target_equals_online_after_update_2": true
+    },
+    "replay_and_exploration": {
+      "status": "passed",
+      "wrapped_replay_samples_max_abs_error": 0.0,
+      "capacity": 64,
+      "transitions_added": 90,
+      "legal_actions_checked": 200,
+      "action_sampling_does_not_decay_epsilon": true,
+      "epsilon_trace": [
+        0.05,
+        0.025,
+        0.02,
+        0.02,
+        0.02
+      ]
+    },
+    "evaluation_rng_isolation": {
+      "status": "passed",
+      "greedy_episodes": 10,
+      "repeat_returns": [
+        9.0,
+        10.0,
+        9.0,
+        8.0,
+        10.0,
+        8.0,
+        10.0,
+        10.0,
+        9.0,
+        9.0
+      ],
+      "global_and_agent_random_streams_unchanged": true,
+      "training_environment_state_unchanged": true
+    },
+    "independent_copy_cpu_200_steps": {
+      "status": "passed",
+      "command": [
+        "D:\\code\\miniconda3\\envs\\vla\\python.exe",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp\\final_v3_code_qa\\independent_copy\\DQN\\run_dqn.py",
+        "--env_name",
+        "CartPole-v1",
+        "--device",
+        "cpu",
+        "--seed",
+        "17",
+        "--output_dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp\\final_v3_code_qa\\cpu_copy_run",
+        "--eval_seed",
+        "10000",
+        "--eval_episodes",
+        "10",
+        "--eval_every",
+        "100",
+        "--max_ep_len",
+        "25",
+        "--memory_size",
+        "64",
+        "--learning_start",
+        "8",
+        "--batch_size",
+        "8",
+        "--target_update_freq",
+        "10",
+        "--hidden_size",
+        "16",
+        "--layer_num",
+        "2",
+        "--epsilon",
+        "0.8",
+        "--epsilon_min",
+        "0.02",
+        "--epsilon_decay",
+        "0.9",
+        "--no-tensorboard",
+        "--total_steps",
+        "200"
+      ],
+      "working_directory": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp\\final_v3_code_qa",
+      "training_steps": 200,
+      "gradient_updates": 193,
+      "online_weights_max_abs_error_vs_frozen": 0.0,
+      "target_weights_max_abs_error_vs_frozen": 0.0,
+      "all_training_and_evaluation_csv_rows_equal": true,
+      "time_limit_truncations_observed": 0,
+      "formal_training": false
+    },
+    "legacy_episode_interface_and_truncation_bootstrap": {
+      "status": "passed",
+      "episodes": 2,
+      "steps": 10,
+      "all_episodes_time_limit_truncated": true,
+      "online_weights_max_abs_error_vs_frozen": 0.0
+    },
+    "independent_copy_tensorboard_cpu_run": {
+      "status": "passed",
+      "command": [
+        "D:\\code\\miniconda3\\envs\\vla\\python.exe",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp\\final_v3_code_qa\\independent_copy_tensorboard\\DQN\\run_dqn.py",
+        "--env_name",
+        "CartPole-v1",
+        "--device",
+        "cpu",
+        "--seed",
+        "17",
+        "--output_dir",
+        "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\tmp\\final_v3_code_qa\\tensorboard_cpu_run",
+        "--eval_seed",
+        "10000",
+        "--eval_episodes",
+        "10",
+        "--eval_every",
+        "100",
+        "--max_ep_len",
+        "25",
+        "--memory_size",
+        "64",
+        "--learning_start",
+        "8",
+        "--batch_size",
+        "8",
+        "--target_update_freq",
+        "10",
+        "--hidden_size",
+        "16",
+        "--layer_num",
+        "2",
+        "--epsilon",
+        "0.8",
+        "--epsilon_min",
+        "0.02",
+        "--epsilon_decay",
+        "0.9",
+        "--tensorboard",
+        "--total_steps",
+        "200"
+      ],
+      "training_steps": 200,
+      "event_scalar_counts": {
+        "Network_Loss": 193,
+        "Q_Values": 193,
+        "Target_Q_Values": 193,
+        "Eval_Returns": 3,
+        "_Epsilon": 18
+      },
+      "event_data_max_abs_error_vs_csv": 1.9073486257070726e-07,
+      "all_training_and_evaluation_scalar_steps_checked": true,
+      "online_weights_max_abs_error_vs_frozen": 0.0,
+      "all_training_rows_equal_to_tensorboard_disabled_run": true,
+      "browser_ui_inspection_claimed": false
+    }
+  },
+  "early_submission_zip_agrees_with_five_available_python_files": true,
+  "submission_directory": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\outputs\\final_report_v3\\Workshop3-Code-Cao-Yang",
+  "submission_files": [
+    "DQN/dqn/agent.py",
+    "DQN/dqn/network.py",
+    "DQN/run_dqn.py",
+    "DQN/utils/logger.py",
+    "DQN/utils/util.py",
+    "README.md",
+    "requirements.txt"
+  ],
+  "final_submission_file_sha256": {
+    "README.md": "c00a88d2d4bc30e1fae2c84dddb1318c345c8671be729a05305491bedb5be5ff",
+    "requirements.txt": "f0cf76ddf54598d428c0bf01c058c3524d606cd08d5227b7232ac0d94d21337d",
+    "DQN/run_dqn.py": "923b58942d9b0f9dc760a769751d399fe553b95673df6524c5891bc22357dd19",
+    "DQN/dqn/agent.py": "f263ff7148bab92beb0d8cf96f037e31a468749277d6769e2a708f357434341e",
+    "DQN/dqn/network.py": "dd7251fca5079f8a0c97d1783b590d01431c411fac397bed5647e57a3be10564",
+    "DQN/utils/logger.py": "c5a9b55ab5389a88ea9e26d7a81e0a8e3b9ce847b28ac5d003bf72a2305a2a5d",
+    "DQN/utils/util.py": "23af2025387945d92af9f0b0bbdc27395b6820e9cfae36dd6d814596a8d8b151"
+  },
+  "early_and_frozen_sources_unchanged": true,
+  "submission_unchanged_by_verification": true,
+  "no_cache_checkpoints_logs_or_archives_in_submission": true,
+  "runtime": {
+    "torch": "2.5.1+cu121",
+    "numpy": "2.2.6",
+    "gymnasium": "1.3.0",
+    "tensorboardX": "2.6.5",
+    "imageio": "2.38.0"
+  },
+  "maximum_verified_numerical_error": 0.0,
+  "semantics": "Matched frozen DQN fixed-batch updates, clipped gradients, replay after wrap, target synchronization and all 200-step CPU training/evaluation rows; source bytes differ to retain template comments.",
+  "original_comment_tokens_preserved": 48,
+  "original_todo_tokens_preserved": 9,
+  "original_class_count": 7,
+  "original_callable_count": 31
+}

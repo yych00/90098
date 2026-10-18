@@ -1,0 +1,284 @@
+{
+  "handout": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\Workshop_4__Policy_Gradient-2.pdf",
+  "source": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws3\\task2_workspace\\corrected_v2",
+  "markdown_en": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\outputs\\final_report_v3\\Workshop4_Final_Report_EN.md",
+  "markdown_zh": "D:\\uni mel\\Melbourne College\\第四学期\\90098强化学习\\ws4\\outputs\\final_report_v3\\Workshop4_Final_Report_ZH.md",
+  "questions": 6,
+  "requirements": [
+    {
+      "id": "T1.Q1.question",
+      "handout_page": 3,
+      "requirement": "State/action/reward; finite/infinite; discrete/continuous; deterministic/stochastic",
+      "en_heading": "Task 1 - Question 1: InvertedPendulum environment",
+      "zh_heading": "Task 1 - Question 1：InvertedPendulum 环境",
+      "en_subheading": "Answer",
+      "zh_subheading": "回答",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q1.state_action_classification",
+      "handout_page": 3,
+      "requirement": "Describe and classify state and action spaces",
+      "en_heading": "Task 1 - Question 1: InvertedPendulum environment",
+      "zh_heading": "Task 1 - Question 1：InvertedPendulum 环境",
+      "en_subheading": "Answer",
+      "zh_subheading": "回答",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q1.reward",
+      "handout_page": 3,
+      "requirement": "Describe reward structure",
+      "en_heading": "Task 1 - Question 1: InvertedPendulum environment",
+      "zh_heading": "Task 1 - Question 1：InvertedPendulum 环境",
+      "en_subheading": "Answer",
+      "zh_subheading": "回答",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q1.determinism",
+      "handout_page": 3,
+      "requirement": "Explain determinism or stochasticity",
+      "en_heading": "Task 1 - Question 1: InvertedPendulum environment",
+      "zh_heading": "Task 1 - Question 1：InvertedPendulum 环境",
+      "en_subheading": "Answer",
+      "zh_subheading": "回答",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q2.question",
+      "handout_page": 3,
+      "requirement": "Run Vanilla PG, Reward-to-go and Baseline on InvertedPendulum",
+      "en_heading": "Task 1 - Question 2: Vanilla PG, reward-to-go and baseline",
+      "zh_heading": "Task 1 - Question 2：三种 PG 方法",
+      "en_subheading": "Question",
+      "zh_subheading": "问题",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q2.submit.tensorboard",
+      "handout_page": 3,
+      "requirement": "Use TensorBoard to visualize progress",
+      "en_heading": "Task 1 - Question 2: Vanilla PG, reward-to-go and baseline",
+      "zh_heading": "Task 1 - Question 2：三种 PG 方法",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true,
+      "evidence_limit": "Numeric TensorBoard events and decoded/sample-frame video only; no browser or Video-tab inspection claimed."
+    },
+    {
+      "id": "T1.Q2.submit.eval_plot",
+      "handout_page": 3,
+      "requirement": "Evaluation returns versus environment steps",
+      "en_heading": "Task 1 - Question 2: Vanilla PG, reward-to-go and baseline",
+      "zh_heading": "Task 1 - Question 2：三种 PG 方法",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q2.discuss.success",
+      "handout_page": 3,
+      "requirement": "Comment on training success",
+      "en_heading": "Task 1 - Question 2: Vanilla PG, reward-to-go and baseline",
+      "zh_heading": "Task 1 - Question 2：三种 PG 方法",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T1.Q2.discuss.policy_type",
+      "handout_page": 3,
+      "requirement": "Deterministic or stochastic policy",
+      "en_heading": "Task 1 - Question 2: Vanilla PG, reward-to-go and baseline",
+      "zh_heading": "Task 1 - Question 2：三种 PG 方法",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q1.question.learning_rates",
+      "handout_page": 4,
+      "requirement": "At least three learning rates in [1e-5,1e-2]",
+      "en_heading": "Task 2 - Question 1: Learning rate",
+      "zh_heading": "Task 2 - Question 1：学习率",
+      "en_subheading": "Question",
+      "zh_subheading": "问题",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q1.submit.learning_curves",
+      "handout_page": 4,
+      "requirement": "Evaluation-return curves for each learning rate",
+      "en_heading": "Task 2 - Question 1: Learning rate",
+      "zh_heading": "Task 2 - Question 1：学习率",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q1.discuss.fastest",
+      "handout_page": 4,
+      "requirement": "Which learning rate converges fastest?",
+      "en_heading": "Task 2 - Question 1: Learning rate",
+      "zh_heading": "Task 2 - Question 1：学习率",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q1.discuss.interaction",
+      "handout_page": 4,
+      "requirement": "Interaction with RTG/baseline and effect of higher learning rate",
+      "en_heading": "Task 2 - Question 1: Learning rate",
+      "zh_heading": "Task 2 - Question 1：学习率",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q1.discuss.gradient_noise",
+      "handout_page": 4,
+      "requirement": "Noise amplification or faster learning with reduced variance; reasoning from plots",
+      "en_heading": "Task 2 - Question 1: Learning rate",
+      "zh_heading": "Task 2 - Question 1：学习率",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q2.question.batch_settings",
+      "handout_page": 4,
+      "requirement": "At least three batch steps, repeated for all three estimators",
+      "en_heading": "Task 2 - Question 2: Steps per batch",
+      "zh_heading": "Task 2 - Question 2：每批采样步数",
+      "en_subheading": "Question",
+      "zh_subheading": "问题",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q2.submit.three_figures",
+      "handout_page": 4,
+      "requirement": "Three figures, one for each variance-reduction setting",
+      "en_heading": "Task 2 - Question 2: Steps per batch",
+      "zh_heading": "Task 2 - Question 2：每批采样步数",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q2.discuss.final_return",
+      "handout_page": 4,
+      "requirement": "Does a larger batch consistently improve final return at fixed environment steps?",
+      "en_heading": "Task 2 - Question 2: Steps per batch",
+      "zh_heading": "Task 2 - Question 2：每批采样步数",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q2.discuss.tradeoff",
+      "handout_page": 4,
+      "requirement": "Variance/computation trade-off and sample efficiency",
+      "en_heading": "Task 2 - Question 2: Steps per batch",
+      "zh_heading": "Task 2 - Question 2：每批采样步数",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q2.discuss.smallest_variance_benefit",
+      "handout_page": 4,
+      "requirement": "Compare batch-variance reductions with Vanilla; identify smallest benefit",
+      "en_heading": "Task 2 - Question 2: Steps per batch",
+      "zh_heading": "Task 2 - Question 2：每批采样步数",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true,
+      "answer": "Smallest proportional covariance-trace reduction among RTG/baseline is baseline: 74.0%, vs RTG76.2%, Vanilla70.7%."
+    },
+    {
+      "id": "T2.Q3.question.hyperparameters",
+      "handout_page": 4,
+      "requirement": "Run CartPole PG and tune budget, batch, learning rate, gamma and network settings",
+      "en_heading": "Task 2 - Question 3: CartPole PG versus DQN",
+      "zh_heading": "Task 2 - Question 3：CartPole 上的 PG 与 DQN",
+      "en_subheading": "Question",
+      "zh_subheading": "问题",
+      "report_addressed": true,
+      "evidence_limit": "Pilot selection varied method, learning rate and batch; gamma/network were configured but held fixed, not claimed searched."
+    },
+    {
+      "id": "T2.Q3.submit.comparison_plot",
+      "handout_page": 4,
+      "requirement": "Evaluation returns versus environment steps for PG and DQN",
+      "en_heading": "Task 2 - Question 3: CartPole PG versus DQN",
+      "zh_heading": "Task 2 - Question 3：CartPole 上的 PG 与 DQN",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q3.discuss.speed_and_reason",
+      "handout_page": 4,
+      "requirement": "Which converges faster and why?",
+      "en_heading": "Task 2 - Question 3: CartPole PG versus DQN",
+      "zh_heading": "Task 2 - Question 3：CartPole 上的 PG 与 DQN",
+      "en_subheading": "Discussion",
+      "zh_subheading": "讨论",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q4.question.controller",
+      "handout_page": 5,
+      "requirement": "Train and tune a HalfCheetah PG controller",
+      "en_heading": "Task 2 - Question 4: HalfCheetah controller",
+      "zh_heading": "Task 2 - Question 4：HalfCheetah 控制器",
+      "en_subheading": "Question",
+      "zh_subheading": "问题",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q4.submit.tensorboard",
+      "handout_page": 5,
+      "requirement": "Use TensorBoard for progress",
+      "en_heading": "Task 2 - Question 4: HalfCheetah controller",
+      "zh_heading": "Task 2 - Question 4：HalfCheetah 控制器",
+      "en_subheading": "Observations",
+      "zh_subheading": "观察",
+      "report_addressed": true,
+      "evidence_limit": "Numeric TensorBoard events and decoded/sample-frame video only; no browser or Video-tab inspection claimed."
+    },
+    {
+      "id": "T2.Q4.submit.learning_curve",
+      "handout_page": 5,
+      "requirement": "Evaluation returns versus environment steps",
+      "en_heading": "Task 2 - Question 4: HalfCheetah controller",
+      "zh_heading": "Task 2 - Question 4：HalfCheetah 控制器",
+      "en_subheading": "Submit",
+      "zh_subheading": "提交内容",
+      "report_addressed": true
+    },
+    {
+      "id": "T2.Q4.video_inspection",
+      "handout_page": 5,
+      "requirement": "Inspect trained behavior in Video tab",
+      "en_heading": "Task 2 - Question 4: HalfCheetah controller",
+      "zh_heading": "Task 2 - Question 4：HalfCheetah 控制器",
+      "en_subheading": "Observations",
+      "zh_subheading": "观察",
+      "report_addressed": true,
+      "evidence_limit": "Numeric TensorBoard events and decoded/sample-frame video only; no browser or Video-tab inspection claimed."
+    }
+  ],
+  "checks": {
+    "six_questions_both_languages": true,
+    "eight_local_relative_figures_each": true,
+    "no_raw_dollar_math": true,
+    "q4_uses_observations_not_invented_discussion": true,
+    "no_training_started": true,
+    "pdf_rendered_and_reviewed_by_coordinator": true
+  },
+  "english_word_count": 1823,
+  "figure_visual_review": "All eight PNG figures inspected for readable axes, legends, complete labels and content; PDF layout delegated to coordinator."
+}

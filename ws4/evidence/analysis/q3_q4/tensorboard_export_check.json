@@ -1,0 +1,141 @@
+{
+  "status": "passed",
+  "source": "post-training export from raw CSV and representative MP4",
+  "video_preview": "same fixed episode, resized to160x160 and sampled every2 frames at10fps",
+  "runs": [
+    {
+      "id": "cartpole_final_s0",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "c47d5cb7be1be554f2a9cea09f762bac6cfdd92794b4c19a5a1f4c2b5eba61bd",
+      "evaluations_csv_sha256": "3812f5b71f18f9cf7f400838697cfc8949e79059c17f85bef112ee312b7b4fe5",
+      "video_sha256": null,
+      "scalar_points_verified": 21,
+      "tags": {
+        "images": [],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    },
+    {
+      "id": "cartpole_final_s1",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "d8ac429ea66670a81bac7d71dbec9aceeeb2f24be820f9aca1d7fceee4f1edf2",
+      "evaluations_csv_sha256": "aa7479a23dc184f1fb69326b68b9494ba6957dec975e61b22ee21a0e3fe80e79",
+      "video_sha256": null,
+      "scalar_points_verified": 21,
+      "tags": {
+        "images": [],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    },
+    {
+      "id": "cartpole_final_s2",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "74bff54ea74cd57f96a5b85599583e434208fdb07cbe0ffabb6c93c63fae4f7c",
+      "evaluations_csv_sha256": "5cbac48b879ad7f27a184db4da45250783ecb7e45d17590be6c3ba03708b9085",
+      "video_sha256": null,
+      "scalar_points_verified": 21,
+      "tags": {
+        "images": [],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    },
+    {
+      "id": "halfcheetah_final_s0",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "0fb71a62b86d5135484da8982da6ddbe50f0cf2fde766ac8beee6b34d2cf9dbc",
+      "evaluations_csv_sha256": "6180115389679e293cebf0faea039efff665bf474e6c6655de29059ca71cf74c",
+      "video_sha256": "bdc734c7e8cf2f82d64109a0b4d228aa11c4ce8967118ffe7a75b942fcc3a723",
+      "scalar_points_verified": 101,
+      "tags": {
+        "images": [
+          "Final Video"
+        ],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    },
+    {
+      "id": "halfcheetah_final_s1",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "52141c390443b66001b0c3b93786a9fa7d3bf473bc732d9ec2dcdba975fa6e4f",
+      "evaluations_csv_sha256": "91119c6cbbd7b153ed5fdebd4dcb1a3459a41a01cc76478ceb6f9893c840ae0e",
+      "video_sha256": null,
+      "scalar_points_verified": 101,
+      "tags": {
+        "images": [],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    },
+    {
+      "id": "halfcheetah_final_s2",
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+      "checkpoint_sha256": "2c9c91a46c0411373c06849670d8aee884a8eb740227c7e80759053fe4ba17fb",
+      "evaluations_csv_sha256": "f0d70d97fe0c5049cfc9dc38eeeea79b9c1a739a19d5177e5cb838b9b1110140",
+      "video_sha256": null,
+      "scalar_points_verified": 101,
+      "tags": {
+        "images": [],
+        "audio": [],
+        "histograms": [],
+        "scalars": [
+          "Eval Returns",
+          "Eval Returns Std"
+        ],
+        "distributions": [],
+        "tensors": [],
+        "graph": false,
+        "meta_graph": false,
+        "run_metadata": []
+      }
+    }
+  ]
+}

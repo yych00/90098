@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "staged": false,
+  "workshops": [
+    {
+      "workshop": 3,
+      "inventory_files": 265,
+      "runs": 33,
+      "code_files": 7,
+      "pdf_pages": 10,
+      "trainer_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd"
+    },
+    {
+      "workshop": 4,
+      "inventory_files": 485,
+      "runs": 57,
+      "code_files": 8,
+      "pdf_pages": 18,
+      "trainer_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    }
+  ],
+  "media_bindings": "passed",
+  "formal_training": false
+}

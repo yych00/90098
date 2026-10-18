@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "actual_training_steps": 200000,
+  "code_hash": "a4350a035f2b565c8d0e0b6343fe3c254acf54c5b7cecb581d60ff97e0bcd8dd",
+  "completed_training_episodes": 1038,
+  "updates": 199001,
+  "final_epsilon": 0.02,
+  "wall_seconds": 685.4805899999999,
+  "training_steps_per_wall_second": 291.76610237789527,
+  "final_mean_return": 500.0,
+  "final_std_return": 0.0,
+  "best_mean_return": 500.0,
+  "first_steps_mean_return_ge_475": 40000,
+  "evaluation_checkpoints": 21,
+  "tensorboard_enabled": true
+}

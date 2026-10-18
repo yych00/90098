@@ -1,0 +1,36 @@
+{
+  "task1_q1": [
+    "state space",
+    "action space",
+    "reward",
+    "finite/continuous",
+    "determinism"
+  ],
+  "task1_q2": [
+    "TensorBoard scalar export",
+    "evaluation curve",
+    "successful training"
+  ],
+  "task2_q1": [
+    "3 learning rates",
+    "evaluation plot",
+    "speed",
+    "stability",
+    "too high",
+    "too low"
+  ],
+  "task2_q2": [
+    "3 schedules",
+    "evaluation plot",
+    "exploration effects",
+    "longer exploration",
+    "too small or fast decay"
+  ],
+  "task2_q3": [
+    "3 capacities x 2 batches",
+    "evaluation plot",
+    "stability",
+    "speed and final performance",
+    "best combination"
+  ]
+}

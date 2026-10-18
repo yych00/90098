@@ -1,0 +1,219 @@
+{
+  "definition": "batch_episodes == 1 in saved metrics.csv, counted once per optimizer update",
+  "corrected_v2_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "interpretation": "Previous-batch historical baseline is fixed before collecting the current batch; a single trajectory does not subtract its own full return. Single-trajectory counts are descriptive, not counts of missing reward gradients. Exact saved zero-gradient counts are reported separately and do not imply frozen Adam parameters.",
+  "runs": [
+    {
+      "run_id": "baseline_lr1e-04_b1000_s0",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "seed": 0,
+      "updates": 493,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-04_b1000_s1",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "seed": 1,
+      "updates": 493,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-04_b1000_s2",
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "seed": 2,
+      "updates": 495,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b1000_s0",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "seed": 0,
+      "updates": 474,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b1000_s1",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "seed": 1,
+      "updates": 471,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b1000_s2",
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "seed": 2,
+      "updates": 462,
+      "single_trajectory_updates": 1,
+      "single_trajectory_fraction": 0.0021645021645021645,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-02_b1000_s0",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "seed": 0,
+      "updates": 460,
+      "single_trajectory_updates": 188,
+      "single_trajectory_fraction": 0.40869565217391307,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-02_b1000_s1",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "seed": 1,
+      "updates": 472,
+      "single_trajectory_updates": 12,
+      "single_trajectory_fraction": 0.025423728813559324,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-02_b1000_s2",
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "seed": 2,
+      "updates": 470,
+      "single_trajectory_updates": 260,
+      "single_trajectory_fraction": 0.5531914893617021,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b2000_s0",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "seed": 0,
+      "updates": 244,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b2000_s1",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "seed": 1,
+      "updates": 244,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b2000_s2",
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "seed": 2,
+      "updates": 245,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b5000_s0",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "seed": 0,
+      "updates": 100,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b5000_s1",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "seed": 1,
+      "updates": 100,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    },
+    {
+      "run_id": "baseline_lr1e-03_b5000_s2",
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "seed": 2,
+      "updates": 100,
+      "single_trajectory_updates": 0,
+      "single_trajectory_fraction": 0.0,
+      "zero_gradient_updates": 0,
+      "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341"
+    }
+  ],
+  "configurations": [
+    {
+      "learning_rate": 0.0001,
+      "batch_steps": 1000,
+      "seeds": 3,
+      "updates": 1481,
+      "single_trajectory_updates": 0,
+      "zero_gradient_updates": 0,
+      "single_trajectory_fraction": 0.0
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_steps": 1000,
+      "seeds": 3,
+      "updates": 1407,
+      "single_trajectory_updates": 1,
+      "zero_gradient_updates": 0,
+      "single_trajectory_fraction": 0.0007107320540156361
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_steps": 2000,
+      "seeds": 3,
+      "updates": 733,
+      "single_trajectory_updates": 0,
+      "zero_gradient_updates": 0,
+      "single_trajectory_fraction": 0.0
+    },
+    {
+      "learning_rate": 0.001,
+      "batch_steps": 5000,
+      "seeds": 3,
+      "updates": 300,
+      "single_trajectory_updates": 0,
+      "zero_gradient_updates": 0,
+      "single_trajectory_fraction": 0.0
+    },
+    {
+      "learning_rate": 0.01,
+      "batch_steps": 1000,
+      "seeds": 3,
+      "updates": 1402,
+      "single_trajectory_updates": 460,
+      "zero_gradient_updates": 0,
+      "single_trajectory_fraction": 0.3281027104136947
+    }
+  ]
+}

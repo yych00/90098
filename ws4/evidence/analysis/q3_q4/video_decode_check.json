@@ -1,0 +1,20 @@
+{
+  "status": "decoded_all_frames",
+  "video": "ws4\\q3_q4\\representative_seed0.mp4",
+  "frames": 1001,
+  "fps": 20.0,
+  "duration_seconds": 50.05,
+  "size": [
+    480,
+    480
+  ],
+  "sha256": "bdc734c7e8cf2f82d64109a0b4d228aa11c4ce8967118ffe7a75b942fcc3a723",
+  "contact_sheet": "ws4\\q3_q4\\representative_seed0_frames.png",
+  "checkpoint": "D:\\uni mel\\Melbourne College\\\u7b2c\u56db\u5b66\u671f\\90098\u5f3a\u5316\u5b66\u4e60\\ws3\\task2_workspace\\corrected_v2\\ws4\\q3_q4\\runs\\halfcheetah_final_s0\\checkpoint.pt",
+  "checkpoint_sha256": "0fb71a62b86d5135484da8982da6ddbe50f0cf2fde766ac8beee6b34d2cf9dbc",
+  "code_hash": "54d3600cf459dd85ee20b8af00f1aacf47ed022eb0714807e99e1f4ba6794341",
+  "video_seed": 10000,
+  "render_record_sha256": "d5c54e8f498410922453b6dfce5d8570ea4a49da0b83faf36bd7b398a8be5cdb",
+  "contact_sheet_sha256": "7a13a75bc2146c9841f1e116726fae827f058372c96d4686db663db5d471e034",
+  "visual_behavior_review": "requires separate human/model inspection; decoding alone does not prove control quality"
+}

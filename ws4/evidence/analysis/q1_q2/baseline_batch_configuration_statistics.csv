@@ -1,0 +1,6 @@
+learning_rate,batch_steps,seeds,updates,single_trajectory_updates,zero_gradient_updates,single_trajectory_fraction
+0.0001,1000,3,1481,0,0,0.0
+0.001,1000,3,1407,1,0,0.0007107320540156361
+0.001,2000,3,733,0,0,0.0
+0.001,5000,3,300,0,0,0.0
+0.01,1000,3,1402,460,0,0.3281027104136947
