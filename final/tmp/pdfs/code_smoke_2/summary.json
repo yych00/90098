@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "requested_training_steps": 100,
+  "actual_training_steps": 117,
+  "updates": 2,
+  "training_seeds": 0,
+  "evaluation_episodes_per_checkpoint": 1
+}

@@ -1,0 +1,227 @@
+{
+  "output": "Combined_Report_WS2_WS3_WS4_WS5.pdf",
+  "pages": 34,
+  "contents_pages": 2,
+  "sha256": "aede1760ac404f211cb2ccf7defafdf8284717704fe3f2998436270c5083d909",
+  "sources": [
+    {
+      "file": "Workshop2_Final_Report_EN.pdf",
+      "sha256": "3b3479137bd93a58e179b43ece177dc8525216ea2e5e589a5353f7a7a11193d0",
+      "pages": 5,
+      "merged_start_page": 3
+    },
+    {
+      "file": "Workshop3_Final_Report_EN.pdf",
+      "sha256": "f7e1ac0eebd5381b4e1cb481d5ceabf143167381e0ce4e9f17d23dfa73a2f580",
+      "pages": 5,
+      "merged_start_page": 8
+    },
+    {
+      "file": "Workshop4_Final_Report_EN.pdf",
+      "sha256": "d024788cb8a12e7d4542bba90e58a8fc5c121c26540431a5933ba7adeff9fa62",
+      "pages": 9,
+      "merged_start_page": 13
+    },
+    {
+      "file": "Workshop5_Final_Report_EN.pdf",
+      "sha256": "10af0dc82083f77c2f1abc88116a54ba68667c4b12ad7b5a6c005d49d6151dcf",
+      "pages": 13,
+      "merged_start_page": 22
+    }
+  ],
+  "bookmarks": 33,
+  "preservation_checks": [
+    {
+      "source": "Workshop2_Final_Report_EN.pdf",
+      "source_page": 1,
+      "merged_page": 3,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop2_Final_Report_EN.pdf",
+      "source_page": 2,
+      "merged_page": 4,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop2_Final_Report_EN.pdf",
+      "source_page": 3,
+      "merged_page": 5,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop2_Final_Report_EN.pdf",
+      "source_page": 4,
+      "merged_page": 6,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop2_Final_Report_EN.pdf",
+      "source_page": 5,
+      "merged_page": 7,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop3_Final_Report_EN.pdf",
+      "source_page": 1,
+      "merged_page": 8,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop3_Final_Report_EN.pdf",
+      "source_page": 2,
+      "merged_page": 9,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop3_Final_Report_EN.pdf",
+      "source_page": 3,
+      "merged_page": 10,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop3_Final_Report_EN.pdf",
+      "source_page": 4,
+      "merged_page": 11,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop3_Final_Report_EN.pdf",
+      "source_page": 5,
+      "merged_page": 12,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 1,
+      "merged_page": 13,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 2,
+      "merged_page": 14,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 3,
+      "merged_page": 15,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 4,
+      "merged_page": 16,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 5,
+      "merged_page": 17,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 6,
+      "merged_page": 18,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 7,
+      "merged_page": 19,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 8,
+      "merged_page": 20,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop4_Final_Report_EN.pdf",
+      "source_page": 9,
+      "merged_page": 21,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 1,
+      "merged_page": 22,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 2,
+      "merged_page": 23,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 3,
+      "merged_page": 24,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 4,
+      "merged_page": 25,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 5,
+      "merged_page": 26,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 6,
+      "merged_page": 27,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 7,
+      "merged_page": 28,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 8,
+      "merged_page": 29,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 9,
+      "merged_page": 30,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 10,
+      "merged_page": 31,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 11,
+      "merged_page": 32,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 12,
+      "merged_page": 33,
+      "text_and_render_identical": true
+    },
+    {
+      "source": "Workshop5_Final_Report_EN.pdf",
+      "source_page": 13,
+      "merged_page": 34,
+      "text_and_render_identical": true
+    }
+  ]
+}

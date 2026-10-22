@@ -1,0 +1,55 @@
+usage: run_dqn.py [-h] --env_name ENV_NAME [--episodes EPISODES]
+                  [--memory_size MEMORY_SIZE]
+                  [--learning_start LEARNING_START] [--batch_size BATCH_SIZE]
+                  [--log_video] [--target_update_freq TARGET_UPDATE_FREQ]
+                  [--hidden_size HIDDEN_SIZE] [--layer_num LAYER_NUM]
+                  [--render] [--max_ep_len MAX_EP_LEN]
+                  [--learning_rate LEARNING_RATE]
+                  [--discount_factor DISCOUNT_FACTOR] [--epsilon EPSILON]
+                  [--epsilon_min EPSILON_MIN] [--epsilon_decay EPSILON_DECAY]
+                  [--exp_name EXP_NAME] [--device DEVICE] [--seed SEED]
+                  [--eval_seed EVAL_SEED] [--eval_episodes EVAL_EPISODES]
+                  [--eval_every EVAL_EVERY] [--total_steps TOTAL_STEPS]
+                  [--output_dir OUTPUT_DIR] [--torch_threads TORCH_THREADS]
+                  [--tensorboard | --no-tensorboard]
+
+Deep Q Learning
+
+options:
+  -h, --help            show this help message and exit
+  --env_name ENV_NAME   gym environment
+  --episodes EPISODES   training episodes when total_steps is omitted
+  --memory_size MEMORY_SIZE
+                        replay buffer size
+  --learning_start LEARNING_START
+                        learning start
+  --batch_size BATCH_SIZE
+                        batch size
+  --log_video
+  --target_update_freq TARGET_UPDATE_FREQ
+                        gradient updates between hard target copies
+  --hidden_size HIDDEN_SIZE
+                        neural network hidden layer size
+  --layer_num LAYER_NUM
+                        neural network layer number
+  --render              whether to render
+  --max_ep_len MAX_EP_LEN
+                        max length for each episode
+  --learning_rate LEARNING_RATE
+  --discount_factor DISCOUNT_FACTOR
+  --epsilon EPSILON     beginning epsilon
+  --epsilon_min EPSILON_MIN
+                        minimum epsilon
+  --epsilon_decay EPSILON_DECAY
+                        epsilon decay weight
+  --exp_name EXP_NAME   add extra info to log
+  --device DEVICE
+  --seed SEED
+  --eval_seed EVAL_SEED
+  --eval_episodes EVAL_EPISODES
+  --eval_every EVAL_EVERY
+  --total_steps TOTAL_STEPS
+                        exact environment-step budget; overrides episodes
+  --output_dir OUTPUT_DIR
+  --torch_threads TORCH_THREADS
+  --tensorboard, --no-tensorboard

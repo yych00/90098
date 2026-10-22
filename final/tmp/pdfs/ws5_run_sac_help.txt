@@ -1,0 +1,53 @@
+usage: run_sac.py [-h] --env_name ENV_NAME [--total_steps TOTAL_STEPS]
+                  [--eval_every EVAL_EVERY] [--eval_episodes EVAL_EPISODES]
+                  [--eval_batch_size EVAL_BATCH_SIZE]
+                  [--eval_device {cpu,cuda}] [--log_video]
+                  [--video_every VIDEO_EVERY] [--memory_size MEMORY_SIZE]
+                  [--batch_size BATCH_SIZE] [--learning_start LEARNING_START]
+                  [--actor_learning_rate ACTOR_LEARNING_RATE]
+                  [--critic_learning_rate CRITIC_LEARNING_RATE]
+                  [--discount_gamma DISCOUNT_GAMMA]
+                  [--temperature TEMPERATURE] [--tau TAU]
+                  [--hidden_size HIDDEN_SIZE] [--layer_num LAYER_NUM]
+                  [--seed SEED] [--eval_seed EVAL_SEED] [--device {cpu,cuda}]
+                  [--torch_threads TORCH_THREADS] [--log_every LOG_EVERY]
+                  [--output_dir OUTPUT_DIR] [--start_gate START_GATE]
+                  [--exp_name EXP_NAME] [--render] [--reference]
+                  [--fused_optimizer] [--cuda_graph] [--cuda_policy_graph]
+
+Soft Actor Critic
+
+options:
+  -h, --help            show this help message and exit
+  --env_name ENV_NAME
+  --total_steps TOTAL_STEPS
+  --eval_every EVAL_EVERY
+  --eval_episodes EVAL_EPISODES
+  --eval_batch_size EVAL_BATCH_SIZE
+  --eval_device {cpu,cuda}
+  --log_video
+  --video_every VIDEO_EVERY
+  --memory_size MEMORY_SIZE
+  --batch_size BATCH_SIZE
+  --learning_start LEARNING_START
+  --actor_learning_rate ACTOR_LEARNING_RATE
+  --critic_learning_rate CRITIC_LEARNING_RATE
+  --discount_gamma DISCOUNT_GAMMA
+  --temperature TEMPERATURE
+  --tau TAU
+  --hidden_size HIDDEN_SIZE
+  --layer_num LAYER_NUM
+  --seed SEED
+  --eval_seed EVAL_SEED
+  --device {cpu,cuda}
+  --torch_threads TORCH_THREADS
+  --log_every LOG_EVERY
+  --output_dir OUTPUT_DIR
+  --start_gate START_GATE
+                        benchmark synchronization file
+  --exp_name EXP_NAME
+  --render
+  --reference           completed unoptimized numerical path
+  --fused_optimizer
+  --cuda_graph
+  --cuda_policy_graph

@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "error": null,
+  "requested_training_steps": 16,
+  "actual_training_steps": 16,
+  "updates": 9,
+  "evaluation_steps": 1000,
+  "wall_seconds": 0.6123616000004404,
+  "video_steps": 0,
+  "loop_seconds": 0.6025417000018933,
+  "evaluation_seconds": 0.41655919999902835,
+  "started_unix": 1792662020.3070648,
+  "active_started_unix": 1792662020.3110657,
+  "loop_finished_unix": 1792662020.909618,
+  "warmup_seconds": 0.003996300001745112,
+  "active_training_seconds": 0.18198620000111987,
+  "training_steps_per_wall_second": 26.128352920869784,
+  "phase_host_seconds": {
+    "action_seconds": 0.006612199991650414,
+    "env_seconds": 0.003528600009303773,
+    "update_seconds": 0.15971210000134306,
+    "logging_seconds": 0.004172500001004664
+  },
+  "timing_note": "CUDA is asynchronous; host phase timings are not GPU kernel timings."
+}

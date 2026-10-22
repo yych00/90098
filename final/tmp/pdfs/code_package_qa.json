@@ -1,0 +1,60 @@
+{
+  "archive": "Code_WS3_WS4_WS5.zip",
+  "sha256": "d32720155754cd9cdd44f06c3df79d41b411ed8bd4bea2b93e2e19a0241882a5",
+  "files": 37,
+  "python_files": 25,
+  "english_only": true,
+  "clean_extraction_hashes_match": true,
+  "cli_checks": [
+    {
+      "workshop": "ws3",
+      "entry_point": "DQN/run_dqn.py",
+      "exit_code": 0
+    },
+    {
+      "workshop": "ws4",
+      "entry_point": "Policy_Gradient/run_policy_gradient.py",
+      "exit_code": 0
+    },
+    {
+      "workshop": "ws5",
+      "entry_point": "Policy_Gradient/run_policy_gradient.py",
+      "exit_code": 0
+    },
+    {
+      "workshop": "ws5",
+      "entry_point": "SAC/run_sac.py",
+      "exit_code": 0
+    }
+  ],
+  "smoke_checks": [
+    {
+      "check": 1,
+      "status": "complete",
+      "actual_training_steps": 200,
+      "updates": 193,
+      "finite_csv_rows": 20
+    },
+    {
+      "check": 2,
+      "status": "completed",
+      "actual_training_steps": 117,
+      "updates": 2,
+      "finite_csv_rows": 6
+    },
+    {
+      "check": 3,
+      "status": "completed",
+      "actual_training_steps": 118,
+      "updates": 2,
+      "finite_csv_rows": 6
+    },
+    {
+      "check": 4,
+      "status": "completed",
+      "actual_training_steps": 16,
+      "updates": 9,
+      "finite_csv_rows": 4
+    }
+  ]
+}
